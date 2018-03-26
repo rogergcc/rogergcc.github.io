@@ -27,6 +27,43 @@ html {
 		font-size: 20px;
 	}
 }
+/*
+main {
+	background: #f75618;
+	color: #1E1E1E;
+}
+
+.icons-social a {
+	color: #1E1E1E;
+}
+
+.icons-social a svg path{
+	fill: #1E1E1E;
+}
+*/
+main.dark-mode{
+	background: #f75618;
+	color: #1E1E1E;
+	
+}
+main.dark-mode .icons-social a {
+	color: #1E1E1E;
+}
+
+main.dark-mode .icons-social a svg path{
+	fill: #1E1E1E;
+}
+main.light-mode{
+	background: #1E1E1E;
+	color: #f75618;
+}
+main.light-mode .icons-social a {
+	color: #f75618;
+}
+
+main.light-mode .icons-social a svg path{
+	fill: #f75618;
+}
 
 .icons-social i {
 	font-size: 3em;
