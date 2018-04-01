@@ -27,20 +27,7 @@ html {
 		font-size: 20px;
 	}
 }
-/*
-main {
-	background: #f75618;
-	color: #1E1E1E;
-}
 
-.icons-social a {
-	color: #1E1E1E;
-}
-
-.icons-social a svg path{
-	fill: #1E1E1E;
-}
-*/
 main.dark-mode{
 	background: #f75618;
 	color: #1E1E1E;
@@ -64,7 +51,32 @@ main.light-mode .icons-social a {
 main.light-mode .icons-social a svg path{
 	fill: #f75618;
 }
-
+a{
+	text-decoration :none;
+}
+.portafolio a{
+	cursor: pointer;
+	margin: 1em auto;
+	display: table;
+	padding: 3px 1em;
+	/*font-weight: 700;*/
+}
+main.light-mode .portafolio a{
+	border: 1px solid #f75618;
+	color: #f75618;
+}
+main.light-mode .portafolio a:hover{
+	background: #f75618;
+	color: #1E1E1E;
+}
+main.dark-mode .portafolio a{
+	border: 1px solid #1E1E1E;
+	color: #1E1E1E;
+}
+main.dark-mode .portafolio a:hover{
+	background: #1E1E1E;
+	color: #f75618;
+}
 .icons-social i {
 	font-size: 3em;
 }
