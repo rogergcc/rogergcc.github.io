@@ -21,7 +21,10 @@ html {
 		font-size: 18px;
 	}
 }
-
+:root{
+	--colorPrincipal: #FF6600;
+	--colorSecundario: #1E1E1E;
+}
 @media (min-width: 1200px) {
 	html {
 		font-size: 20px;
@@ -29,27 +32,27 @@ html {
 }
 
 main.dark-mode{
-	background: #f75618;
-	color: #1E1E1E;
+	background: var(--colorPrincipal);
+	color: var(--colorSecundario);
 	
 }
 main.dark-mode .icons-social a {
-	color: #1E1E1E;
+	color: var(--colorSecundario);
 }
 
 main.dark-mode .icons-social a svg path{
-	fill: #1E1E1E;
+	fill: var(--colorSecundario);
 }
 main.light-mode{
-	background: #1E1E1E;
-	color: #f75618;
+	background: var(--colorSecundario);
+	color: var(--colorPrincipal);
 }
 main.light-mode .icons-social a {
-	color: #f75618;
+	color: var(--colorPrincipal);
 }
 
 main.light-mode .icons-social a svg path{
-	fill: #f75618;
+	fill: var(--colorPrincipal);
 }
 a{
 	text-decoration :none;
@@ -62,20 +65,20 @@ a{
 	/*font-weight: 700;*/
 }
 main.light-mode .portafolio a{
-	border: 1px solid #f75618;
-	color: #f75618;
+	border: 1px solid var(--colorPrincipal);
+	color: var(--colorPrincipal);
 }
 main.light-mode .portafolio a:hover{
-	background: #f75618;
-	color: #1E1E1E;
+	background: var(--colorPrincipal);
+	color: var(--colorSecundario);
 }
 main.dark-mode .portafolio a{
-	border: 1px solid #1E1E1E;
-	color: #1E1E1E;
+	border: 1px solid var(--colorSecundario);
+	color: var(--colorSecundario);
 }
 main.dark-mode .portafolio a:hover{
-	background: #1E1E1E;
-	color: #f75618;
+	background: var(--colorSecundario);
+	color: var(--colorPrincipal);
 }
 .icons-social i {
 	font-size: 3em;
