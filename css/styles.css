@@ -22,7 +22,7 @@ html {
 	}
 }
 :root{
-	--colorPrincipal: #FF6600;
+	--colorPrincipal: #F44336;
 	--colorSecundario: #1E1E1E;
 }
 @media (min-width: 1200px) {
