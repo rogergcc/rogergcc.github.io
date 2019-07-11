@@ -32,9 +32,9 @@ body.addEventListener("click", () => {
     all.split("");
     var newColor ="#" + randomArr(all, 6).join('');
     let colorRandom = arrColors[rand];
-    console.log("color: "+colorRandom);
+    //console.log("color: "+colorRandom);
     
-    root.style.setProperty('--colorPrincipal', colorRandom);
+    //root.style.setProperty('--colorPrincipal', colorRandom);
 
     var currentClass = main.className;
 
