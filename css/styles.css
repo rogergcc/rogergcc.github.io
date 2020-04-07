@@ -22,8 +22,16 @@ html {
 	}
 }
 :root{
-	--colorPrincipal: #F44336;
-	--colorSecundario: #1E1E1E;
+	/* --colorPrincipal: #F44336;
+	--colorSecundario: #1E1E1E; */
+
+	/* Black (#2D2926FF) and Cherry Tomato (#E94B3CFF) */
+	--colorPrincipal: #E94B3CFF;
+	--colorSecundario: #2D2926FF;
+
+	/* Black & red Sonata */
+	/* --colorPrincipal: #ec4d37;
+	--colorSecundario: #1d1b1b; */
 }
 @media (min-width: 1200px) {
 	html {
