@@ -70,14 +70,14 @@ const socialAccounts = [
 
 const projects = [
 
-	{
+{
 		_id: "588d6626d5fa05f06d1ad0de",
 		title: "Android Mobile Application and multiplatform App in Xamarin Forms “Legal App” to track Administrative documents for the PJ Corporation. Manage contracts quickly and easily.",
 		creator: "588d27ad186c350012223b9d",
 		user: "rogergcc",
 		url: "https://www.dropbox.com/sh/p3d1d9g1g0osdb4/AADGPLQ3l-UPUAUmlY4HTzqla?dl=0",
 		type: "Mobile App",
-		img: "./assets/m_tramiteLegal.jpg",
+		img: "https://rogergcc.github.io/assets/m_tramiteLegal.JPG",
 		technologies: [
 			"C# and Java",
 			"Android App",
@@ -96,7 +96,7 @@ const projects = [
 		user: "rogergcc",
 		url: "https://www.dropbox.com/sh/k1oap9rxraubvli/AAANjLJmoc614Iy1ahA6pGOma?dl=0",
 		type: "Mobile App",
-		img: "./assets/m_qrInventoryFaedcoh.jpg",
+		img: "https://rogergcc.github.io/assets/m_qrInventoryFaedcoh.JPG",
 		technologies: [
 			"Java",
 			"Android App",
@@ -114,7 +114,7 @@ const projects = [
 		user: "rogergcc",
 		url: "https://www.dropbox.com/s/oe1ul2m524e7jzr/manualcortesiascel.docx?dl=0",
 		type: "Front-End",
-		img: "./assets/m_cortesias.jpg",
+		img: "https://rogergcc.github.io/assets/m_cortesias.JPG",
 		technologies: [
 
 			"Java",
@@ -131,7 +131,7 @@ const projects = [
 		user: "rogergcc",
 		url: "https://www.dropbox.com/sh/690y8xbjw9o9b0l/AAAyA9NLg8kCfpXv7cG-Efwia?dl=0",
 		type: "Mobile App",
-		img: "./assets/m_ludopatas.jpg",
+		img: "https://rogergcc.github.io/assets/m_ludopatas.JPG",
 		technologies: [
 			"Java",
 			"Android App",
@@ -147,7 +147,7 @@ const projects = [
 		user: "rogergcc",
 		url: "https://www.dropbox.com/sh/n7ii601mg4c9pv3/AAD4ayTtPak8m6DT9C-AoxZQa?dl=0",
 		type: "Mobile App",
-		img: "./assets/m_flutter_gootwork.jpg",
+		img: "https://rogergcc.github.io/assets/m_flutter_gootwork.JPG",
 		technologies: [
 			"Dart",
 			"Multiplatform App",
@@ -163,7 +163,7 @@ const projects = [
 		user: "rogergcc",
 		url: "https://github.com/rogergcc/SharedPreferenceFavorites",
 		type: "Mobile App",
-		img: "./assets/m_persitenceData.jpg",
+		img: "https://rogergcc.github.io/assets/m_persitenceData.JPG",
 		technologies: [
 			"Java",
 			"Android App",
@@ -178,7 +178,7 @@ const projects = [
 		user: "rogergcc",
 		url: "https://github.com/rogergcc/BookUiProject",
 		type: "Mobile App",
-		img: "./assets/m_bookUiTransition.jpg",
+		img: "https://rogergcc.github.io/assets/m_bookUiTransition.JPG",
 		technologies: [
 			"Java",
 			"Android App",
@@ -193,7 +193,7 @@ const projects = [
 		user: "rogergcc",
 		url: "https://rogergcc.github.io/music-adventure/",
 		type: "Front-End",
-		img: "./assets/f_songs_adventure.jpg",
+		img: "https://rogergcc.github.io/assets/f_songs_adventure.JPG",
 		description: "Music player with flexbox and deezer api (tracks).",
 		__v: 1,
 		technologies: [
@@ -211,7 +211,7 @@ const projects = [
 		user: "rogergcc",
 		url: "https://codepen.io/rogergcc/full/rrrNdy",
 		type: "Front-End",
-		img: "./assets/f_movies.jpg",
+		img: "https://rogergcc.github.io/assets/f_movies.JPG",
 		description: "Codepen Card Flip - Movies",
 		__v: 1,
 		technologies: [
@@ -228,7 +228,7 @@ const projects = [
 		user: "rogergcc",
 		url: "https://codepen.io/rogergcc/full/NeEYeN",
 		type: "Front-End",
-		img: "./assets/f_pokemons_gens.jpg",
+		img: "https://rogergcc.github.io/assets/f_pokemons_gens.JPG",
 		description: "Pokemon Generations.",
 		technologies: [
 			"HTML5",
@@ -244,7 +244,7 @@ const projects = [
 		user: "rogergcc",
 		url: "https://rogergcc.github.io/ApiMarvel/",
 		type: "Front-End",
-		img: "./assets/f_marvel.jpg",
+		img: "https://rogergcc.github.io/assets/f_marvel.JPG",
 		technologies: [
 			"HTML",
 			"CSS",
@@ -259,7 +259,7 @@ const projects = [
 	// user: "jeremylshepherd",
 	// url: "http://s.codepen.io/jeremylshepherd/debug/rOoORj",
 	// type: "Front-End",
-	// img: "https://jeremylshepherd.io/assets/tictactoe_new.png",
+	// img "https://jeremylshepherd.iohttps://rogergcc.github.io/assets/tictactoe_new.JPG",
 	// technologies: [
 	// "Angular",
 	// "Bootstrap",
