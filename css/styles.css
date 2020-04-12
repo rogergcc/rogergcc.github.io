@@ -5,6 +5,12 @@ html {
 	font-family: 'Reem Kufi', sans-serif;
 }
 
+
+p,h5 {
+	font-family: 'Roboto', sans-serif;
+	/* font-family: 'Reem Kufi', sans-serif; */
+}
+
 @media (min-width: 576px) {
 	html {
 		font-size: 14px;
@@ -214,7 +220,99 @@ main > .tagline {
   }
 
 
-@media only screen and (max-width: 960px) {
+  .portfolio .project-grid {
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: (1fr)[3];
+		grid-template-columns: repeat(3, 1fr);
+	grid-gap: .5vw;
+	max-width: 1280px;
+	margin: 0 auto;
+  }
+
+
+
+
+.project-page {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+	-ms-flex-pack: distribute;
+		justify-content: space-around;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+			flex-direction: row;
+	min-height: 85vh;
+	padding: 20px;
+  }
+  
+  .project-page .stack,
+  .project-page .screenshot {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+			flex-direction: column;
+  }
+  
+  .project-page .stack {
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: stretch;
+		-ms-flex-align: stretch;
+			align-items: stretch;
+	min-width: 30%;
+	margin: 10px;
+  }
+  
+  .project-page .stack ul {
+	list-style-type: none;
+  }
+  
+  .project-page .stack ul li {
+	text-indent: -1.4em;
+  }
+  
+  .project-page .stack ul li:before {
+	font-family: "FontAwesome";
+	content: '\f121';
+	color: #222;
+	margin-right: .2em;
+  }
+  
+  .project-page .screenshot {
+	-ms-flex-pack: distribute;
+		justify-content: space-around;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+	min-width: 70%;
+  }
+  
+  .project-page .screenshot img {
+	width: 100%;
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+			box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  }
+
+
+
+  
+
+  @media only screen and (min-width: 1145px) {
+	.colCont .content .header-bar {
+	  font-size: 1.25em;
+	}
+  }
+  
+  @media only screen and (max-width: 960px) {
 	.portfolio .project-grid {
 	  display: -ms-grid;
 	  display: grid;
@@ -227,24 +325,33 @@ main > .tagline {
 	  padding-bottom: 5vh;
 	}
   }
+  
+  @media only screen and (max-width: 768px) {
 
+	.portfolio .form-box .form {
+	  width: 100%;
+	}
+	.portfolio .form-box .check-box {
+	  width: 100%;
+	  margin-bottom: 20px;
+	}
+	.project-page {
+	  -ms-flex-wrap: wrap;
+		  flex-wrap: wrap;
+	}
+	.social {
+	  -webkit-box-pack: center;
+		  -ms-flex-pack: center;
+			  justify-content: center;
+	  padding: 0;
+	}
+	
+	.portfolio .project-grid {
+	  display: -ms-grid;
+	  display: grid;
+	  -ms-grid-columns: (1fr)[1];
+		  grid-template-columns: repeat(1, 1fr);
+	}
 
-.portfolio .project-grid {
-    display: -ms-grid;
-    display: grid;
-
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: .5vw;
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
-/* .portfolio .project-grid {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (1fr)[3];
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: .5vw;
-    max-width: 1280px;
-    margin: 0 auto;
-} */
+	
+  }

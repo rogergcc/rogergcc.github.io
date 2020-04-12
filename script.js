@@ -71,13 +71,14 @@ const socialAccounts = [
 const projects = [
 
 {
-		_id: "588d6626d5fa05f06d1ad0de",
-		title: "Android Mobile Application and multiplatform App in Xamarin Forms “Legal App” to track Administrative documents for the PJ Corporation. Manage contracts quickly and easily.",
+		_id: "1",
+		title: "Mobile Application in Xamarin Forms and Native “Legal App” to track Administrative documents.",
 		creator: "588d27ad186c350012223b9d",
 		user: "rogergcc",
 		url: "https://www.dropbox.com/sh/p3d1d9g1g0osdb4/AADGPLQ3l-UPUAUmlY4HTzqla?dl=0",
 		type: "Mobile App",
 		img: "https://rogergcc.github.io/assets/m_tramiteLegal.JPG",
+		description: "Android Mobile Application and multiplatform App in Xamarin Forms “Legal App” to track Administrative documents . Manage contracts quickly and easily.",
 		technologies: [
 			"C# and Java",
 			"Android App",
@@ -90,13 +91,14 @@ const projects = [
 	},
 
 	{
-		_id: "588d6626d5fa05f06d1ad0de",
-		title: "Mobile App “Faedoch Qr” inventory and control of equipment in the faculty, recognition of items display of information according to their QR code.",
+		_id: "2",
+		title: "Mobile App “Faedoch Qr” inventory and control of equipment in the faculty.",
 		creator: "588d27ad186c350012223b9d",
 		user: "rogergcc",
 		url: "https://www.dropbox.com/sh/k1oap9rxraubvli/AAANjLJmoc614Iy1ahA6pGOma?dl=0",
 		type: "Mobile App",
 		img: "https://rogergcc.github.io/assets/m_qrInventoryFaedcoh.JPG",
+		description: "Mobile App “Faedoch Qr” inventory and control of equipment in the faculty, recognition of items display of information according to their QR code.",
 		technologies: [
 			"Java",
 			"Android App",
@@ -108,13 +110,14 @@ const projects = [
 	},
 
 	{
-		_id: "588d6626d5fa05f06d1ad0de",
-		title: "Mobile App to carry out a control and monitoring of the courtesies that are attended in the room",
+		_id: "3",
+		title: "Mobile App “Cortesias” to carry out a control and monitoring of the courtesies.",
 		creator: "588d27ad186c350012223b9d",
 		user: "rogergcc",
 		url: "https://www.dropbox.com/s/oe1ul2m524e7jzr/manualcortesiascel.docx?dl=0",
 		type: "Front-End",
 		img: "https://rogergcc.github.io/assets/m_cortesias.JPG",
+		description: "Mobile App to carry out a control and monitoring of the courtesies that are attended in the room",
 		technologies: [
 
 			"Java",
@@ -125,13 +128,14 @@ const projects = [
 		]
 	},
 	{
-		_id: "588d6626d5fa05f06d1ad0de",
-		title: "Mobile App “Ludopatas” related to the Money Laundering Module, in order to streamline the search process each client, for each gaming room of the PJ corporation, identifying, if it is an unpleasant person, a political person and a gambler",
+		_id: "4",
+		title: "Mobile App “Ludopatas” related to the Money Laundering Module",
 		creator: "588d27ad186c350012223b9d",
 		user: "rogergcc",
 		url: "https://www.dropbox.com/sh/690y8xbjw9o9b0l/AAAyA9NLg8kCfpXv7cG-Efwia?dl=0",
 		type: "Mobile App",
 		img: "https://rogergcc.github.io/assets/m_ludopatas.JPG",
+		description: "Mobile App “Ludopatas” related to the Money Laundering Module, in order to streamline the search process each client, for each gaming room of the PJ corporation, identifying, if it is an unpleasant person, a political person and a gambler",
 		technologies: [
 			"Java",
 			"Android App",
@@ -141,13 +145,14 @@ const projects = [
 		]
 	},
 	{
-		_id: "588d6626d5fa05f06d1ad0de",
-		title: "Design Mobile App for place basic orders for people near you and helping them donating supplies",
+		_id: "5",
+		title: "Design Mobile App “GootWork” ",
 		creator: "588d27ad186c350012223b9d",
 		user: "rogergcc",
 		url: "https://www.dropbox.com/sh/n7ii601mg4c9pv3/AAD4ayTtPak8m6DT9C-AoxZQa?dl=0",
 		type: "Mobile App",
 		img: "https://rogergcc.github.io/assets/m_flutter_gootwork.JPG",
+		description: "Design Mobile App for place basic orders for people near you and helping them donating supplies",
 		technologies: [
 			"Dart",
 			"Multiplatform App",
@@ -157,13 +162,14 @@ const projects = [
 	},
 	
 	{
-		_id: "588d6626d5fa05f06d1ad0de",
+		_id: "6",
 		title: "Save Data Offline - Persitence Data.",
 		creator: "588d27ad186c350012223b9d",
 		user: "rogergcc",
 		url: "https://github.com/rogergcc/SharedPreferenceFavorites",
 		type: "Mobile App",
 		img: "https://rogergcc.github.io/assets/m_persitenceData.JPG",
+		description: "Save Data Offline - Persitence Data.",
 		technologies: [
 			"Java",
 			"Android App",
@@ -172,13 +178,14 @@ const projects = [
 		]
 	},
 	{
-		_id: "588d6626d5fa05f06d1ad0de",
+		_id: "7",
 		title: "Book  Ui Transition project api google books ",
 		creator: "588d27ad186c350012223b9d",
 		user: "rogergcc",
 		url: "https://github.com/rogergcc/BookUiProject",
 		type: "Mobile App",
 		img: "https://rogergcc.github.io/assets/m_bookUiTransition.JPG",
+		description: "Book  Ui Transition project api google books ",
 		technologies: [
 			"Java",
 			"Android App",
@@ -187,7 +194,7 @@ const projects = [
 		]
 	},
 	{
-		_id: "12412424",
+		_id: "8",
 		title: "Music player with flexbox and deezer api (tracks)",
 		creator: "588d27ad186c350012223b9d",
 		user: "rogergcc",
@@ -205,7 +212,7 @@ const projects = [
 	},
 
 	{
-		_id: "588d6626d5fa05f06d1ad0db",
+		_id: "9",
 		title: "Card Flip - Movies",
 		creator: "588d27ad186c350012223b9d",
 		user: "rogergcc",
@@ -222,7 +229,7 @@ const projects = [
 		]
 	},
 	{
-		_id: "588d6626d5fa05f06d1ad0dc",
+		_id: "10",
 		title: "Free Code Camp | Pokemon Gens",
 		creator: "588d27ad186c350012223b9d",
 		user: "rogergcc",
@@ -238,7 +245,7 @@ const projects = [
 		]
 	},
 	{
-		_id: "588d6626d5fa05f06d1ad0de",
+		_id: "11",
 		title: "Marvel APi",
 		creator: "588d27ad186c350012223b9d",
 		user: "rogergcc",
@@ -300,7 +307,7 @@ function mapProjectsWorks(projectsARR) {
 	let html = projectsARR.map(projec => {
 		return `
 		   <div class="project-tile">
-			<a target="_blank" href="${projec.url}" TAR>
+			<a target="_blank" href="${projec.url}">
 				<div class="frame">
 					<span class="overlay">
 						<p>${projec.title}: <br>${projec.technologies} <br>Project type: ${projec.type}</p>
