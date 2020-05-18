@@ -37,7 +37,7 @@ const socialAccounts = [
 
 	{
 		name: "medium",
-		link: "https://medium.com/@rogercolquehuanca",
+		link: "https://medium.com/@rogercolque",
 		icon: "fab fa-medium"
 	},
 
