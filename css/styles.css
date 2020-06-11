@@ -2,12 +2,13 @@
 
 html {
 	/* font-family: 'Roboto', sans-serif; */
-	font-family: 'Reem Kufi', sans-serif;
+	font-family: monospace, sans-serif;
 }
 
 
 p,h5 {
-	font-family: 'Roboto', sans-serif;
+	/* font-family: 'Roboto', sans-serif; */
+	font-family: monospace;
 	/* font-family: 'Reem Kufi', sans-serif; */
 }
 
@@ -151,7 +152,7 @@ main > .tagline {
 
 .overlay p {
 	font-weight: bold;
-	font-family: 'Calibri', sans-serif;
+	/* font-family: 'Calibri', sans-serif; */
 	font-size: 16px;
 }
 
