@@ -17,11 +17,11 @@ const socialAccounts = [
 		icon: "fab fa-github"
 	},
 
-	{
-		name: "gitlab",
-		link: "https://gitlab.com/rogergcc",
-		icon: "fab fa-gitlab"
-	},
+	// {
+	// 	name: "gitlab",
+	// 	link: "https://gitlab.com/rogergcc",
+	// 	icon: "fab fa-gitlab"
+	// },
 
 	{
 		name: "stackoverflow",
@@ -161,39 +161,39 @@ const projects = [
 			"MS Sql"
 		]
 	},
-	{
-		_id: "5",
-		title: "Design Mobile App “GootWork” ",
-		creator: "588d27ad186c350012223b9d",
-		user: "rogergcc",
-		url: "https://www.dropbox.com/sh/n7ii601mg4c9pv3/AAD4ayTtPak8m6DT9C-AoxZQa?dl=0",
-		type: "Mobile App",
-		img: "./assets/m_flutter_gootwork.JPG",
-		description: "Design Mobile App for place basic orders for people near you and helping them donating supplies",
-		technologies: [
-			"Dart",
-			"Multiplatform App",
-			"Visual Studio Code",
-			"Flutter"
-		]
-	},
+	// {
+	// 	_id: "5",
+	// 	title: "Design Mobile App “GootWork” ",
+	// 	creator: "588d27ad186c350012223b9d",
+	// 	user: "rogergcc",
+	// 	url: "https://www.dropbox.com/sh/n7ii601mg4c9pv3/AAD4ayTtPak8m6DT9C-AoxZQa?dl=0",
+	// 	type: "Mobile App",
+	// 	img: "./assets/m_flutter_gootwork.JPG",
+	// 	description: "Design Mobile App for place basic orders for people near you and helping them donating supplies",
+	// 	technologies: [
+	// 		"Dart",
+	// 		"Multiplatform App",
+	// 		"Visual Studio Code",
+	// 		"Flutter"
+	// 	]
+	// },
 	
-	{
-		_id: "6",
-		title: "Save Data Offline - Persitence Data.",
-		creator: "588d27ad186c350012223b9d",
-		user: "rogergcc",
-		url: "https://github.com/rogergcc/SharedPreferenceFavorites",
-		type: "Mobile App",
-		img: "./assets/m_persitenceData.JPG",
-		description: "Save Data Offline - Persitence Data.",
-		technologies: [
-			"Java",
-			"Android App",
-			"Android Studio",
+	// {
+	// 	_id: "6",
+	// 	title: "Save Data Offline - Persitence Data.",
+	// 	creator: "588d27ad186c350012223b9d",
+	// 	user: "rogergcc",
+	// 	url: "https://github.com/rogergcc/SharedPreferenceFavorites",
+	// 	type: "Mobile App",
+	// 	img: "./assets/m_persitenceData.JPG",
+	// 	description: "Save Data Offline - Persitence Data.",
+	// 	technologies: [
+	// 		"Java",
+	// 		"Android App",
+	// 		"Android Studio",
 			
-		]
-	},
+	// 	]
+	// },
 	{
 		_id: "7",
 		title: "Book  Ui Transition project api google books ",
@@ -210,23 +210,23 @@ const projects = [
 			
 		]
 	},
-	{
-		_id: "8",
-		title: "Music player with flexbox and deezer api (tracks)",
-		creator: "588d27ad186c350012223b9d",
-		user: "rogergcc",
-		url: "https://rogergcc.github.io/music-adventure/",
-		type: "Front-End",
-		img: "./assets/f_songs_adventure.JPG",
-		description: "Music player with flexbox and deezer api (tracks).",
-		__v: 1,
-		technologies: [
-			"HTML5",
-			"CSS3",
-			"Sass scss",
-			"JS ES6"
-		]
-	},
+	// {
+	// 	_id: "8",
+	// 	title: "Music player with flexbox and deezer api (tracks)",
+	// 	creator: "588d27ad186c350012223b9d",
+	// 	user: "rogergcc",
+	// 	url: "https://rogergcc.github.io/music-adventure/",
+	// 	type: "Front-End",
+	// 	img: "./assets/f_songs_adventure.JPG",
+	// 	description: "Music player with flexbox and deezer api (tracks).",
+	// 	__v: 1,
+	// 	technologies: [
+	// 		"HTML5",
+	// 		"CSS3",
+	// 		"Sass scss",
+	// 		"JS ES6"
+	// 	]
+	// },
 
 	{
 		_id: "9",
@@ -261,21 +261,21 @@ const projects = [
 			"Bulma CSS Framework"
 		]
 	},
-	{
-		_id: "11",
-		title: "Marvel APi",
-		creator: "588d27ad186c350012223b9d",
-		user: "rogergcc",
-		url: "https://rogergcc.github.io/ApiMarvel/",
-		type: "Front-End",
-		img: "./assets/f_marvel.JPG",
-		technologies: [
-			"HTML",
-			"CSS",
-			"SCSS",
-			"JS",
-		]
-	},
+	// {
+	// 	_id: "11",
+	// 	title: "Marvel APi",
+	// 	creator: "588d27ad186c350012223b9d",
+	// 	user: "rogergcc",
+	// 	url: "https://rogergcc.github.io/ApiMarvel/",
+	// 	type: "Front-End",
+	// 	img: "./assets/f_marvel.JPG",
+	// 	technologies: [
+	// 		"HTML",
+	// 		"CSS",
+	// 		"SCSS",
+	// 		"JS",
+	// 	]
+	// },
 	// {a
 	// _id: "588d6626d5fa05f06d1ad0df",
 	// title: "Free Code Camp | Tic Tac Toe",
