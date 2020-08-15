@@ -88,6 +88,23 @@ const projects = [
 	},
 
 	{
+		_id: "5",
+		title: "Game App - Memory Game Movies",
+		creator: "588d27ad186c350012223b9d",
+		user: "rogergcc",
+		url: "https://play.google.com/store/apps/details?id=com.rogergcc.memorygame",
+		type: "Mobile App",
+		img: "./assets/descarga_addfondo_2.png",
+		description: "Memory Android Game App - Movies",
+		technologies: [
+			
+			"Android App",
+			"Game App",
+			"Android Studio"
+		]
+	},
+
+	{
 		_id: "1",
 		title: "Mobile Application in Xamarin Forms and Native “Legal App” to track Administrative documents.",
 		creator: "588d27ad186c350012223b9d",
