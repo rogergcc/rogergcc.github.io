@@ -92,7 +92,7 @@ const projects = [
 		title: "Game App - Memory Game Movies",
 		creator: "588d27ad186c350012223b9d",
 		user: "rogergcc",
-		url: "https://play.google.com/store/apps/details?id=com.rogergcc.memorygame",
+		url: "https://appgallery5.huawei.com/#/app/C102550113",
 		type: "Mobile App",
 		img: "./assets/descarga_addfondo_2.png",
 		description: "Memory Android Game App - Movies",
