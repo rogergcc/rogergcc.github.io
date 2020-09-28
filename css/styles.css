@@ -1,14 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap');
+
+
 /* Typography */
 
 html {
 	/* font-family: 'Roboto', sans-serif; */
-	font-family: monospace, sans-serif;
+	font-family: 'Nunito', sans-serif;
+
 }
 
 
 p,h5 {
 	/* font-family: 'Roboto', sans-serif; */
-	font-family: monospace;
+	font-family: 'Nunito', sans-serif;
 	/* font-family: 'Reem Kufi', sans-serif; */
 }
 
