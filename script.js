@@ -72,8 +72,26 @@ const projects = [
 
 	{
 		_id: "12",
+		title: "IP Address Tracker",
+		creator: "roger",
+		user: "rogergcc",
+		url: "https://ip-address-tracker-project.herokuapp.com/",
+		type: "Front-End",
+		img: "./assets/ip_adrress_tracker.jpg",
+		technologies: [
+			"Nodejs",
+			"Api",
+			"Heroku",
+			"Mapbox",
+			"JS",
+		]
+	},
+
+
+	{
+		_id: "12",
 		title: "Especialidades/Carta del día con Google Sheets.",
-		creator: "588d27ad186c350012223b9d",
+		creator: "roger",
 		user: "rogergcc",
 		url: "https://rogergcc.github.io/specials_menu/",
 		type: "Front-End",
@@ -90,7 +108,7 @@ const projects = [
 	{
 		_id: "5",
 		title: "Game App - Memory Game Movies",
-		creator: "588d27ad186c350012223b9d",
+		creator: "roger",
 		user: "rogergcc",
 		url: "https://appgallery5.huawei.com/#/app/C102550113",
 		type: "Mobile App",
@@ -107,7 +125,7 @@ const projects = [
 	{
 		_id: "1",
 		title: "Mobile Application in Xamarin Forms and Native “Legal App” to track Administrative documents.",
-		creator: "588d27ad186c350012223b9d",
+		creator: "roger",
 		user: "rogergcc",
 		url: "https://github.com/rogergcc/AppLegal",
 		type: "Mobile App",
@@ -127,7 +145,7 @@ const projects = [
 	{
 		_id: "2",
 		title: "Mobile App “Faedoch Qr” inventory and control of equipment in the faculty.",
-		creator: "588d27ad186c350012223b9d",
+		creator: "roger",
 		user: "rogergcc",
 		url: "https://github.com/rogergcc/AppSisfaedcoh",
 		type: "Mobile App",
@@ -146,7 +164,7 @@ const projects = [
 	{
 		_id: "3",
 		title: "Mobile App “Cortesias” to carry out a control and monitoring of the courtesies.",
-		creator: "588d27ad186c350012223b9d",
+		creator: "roger",
 		user: "rogergcc",
 		url: "https://github.com/rogergcc/AppAtencionPedidos",
 		type: "Front-End",
@@ -164,7 +182,7 @@ const projects = [
 	{
 		_id: "4",
 		title: "Mobile App “Ludopatas” related to the Money Laundering Module",
-		creator: "588d27ad186c350012223b9d",
+		creator: "roger",
 		user: "rogergcc",
 		url: "#",
 		type: "Mobile App",
@@ -181,7 +199,7 @@ const projects = [
 	// {
 	// 	_id: "5",
 	// 	title: "Design Mobile App “GootWork” ",
-	// 	creator: "588d27ad186c350012223b9d",
+	// 	creator: "roger",
 	// 	user: "rogergcc",
 	// 	url: "https://www.dropbox.com/sh/n7ii601mg4c9pv3/AAD4ayTtPak8m6DT9C-AoxZQa?dl=0",
 	// 	type: "Mobile App",
@@ -198,7 +216,7 @@ const projects = [
 	// {
 	// 	_id: "6",
 	// 	title: "Save Data Offline - Persitence Data.",
-	// 	creator: "588d27ad186c350012223b9d",
+	// 	creator: "roger",
 	// 	user: "rogergcc",
 	// 	url: "https://github.com/rogergcc/SharedPreferenceFavorites",
 	// 	type: "Mobile App",
@@ -214,7 +232,7 @@ const projects = [
 	{
 		_id: "7",
 		title: "Book  Ui Transition project api google books ",
-		creator: "588d27ad186c350012223b9d",
+		creator: "roger",
 		user: "rogergcc",
 		url: "https://github.com/rogergcc/BookUiProject",
 		type: "Mobile App",
@@ -227,28 +245,28 @@ const projects = [
 			
 		]
 	},
-	// {
-	// 	_id: "8",
-	// 	title: "Music player with flexbox and deezer api (tracks)",
-	// 	creator: "588d27ad186c350012223b9d",
-	// 	user: "rogergcc",
-	// 	url: "https://rogergcc.github.io/music-adventure/",
-	// 	type: "Front-End",
-	// 	img: "./assets/f_songs_adventure.JPG",
-	// 	description: "Music player with flexbox and deezer api (tracks).",
-	// 	__v: 1,
-	// 	technologies: [
-	// 		"HTML5",
-	// 		"CSS3",
-	// 		"Sass scss",
-	// 		"JS ES6"
-	// 	]
-	// },
+	{
+		_id: "8",
+		title: "Music player with flexbox and deezer api (tracks)",
+		creator: "roger",
+		user: "rogergcc",
+		url: "https://rogergcc.github.io/music-adventure/",
+		type: "Front-End",
+		img: "./assets/f_songs_adventure.JPG",
+		description: "Music player with flexbox and deezer api (tracks).",
+		__v: 1,
+		technologies: [
+			"HTML5",
+			"CSS3",
+			"Sass scss",
+			"JS ES6"
+		]
+	},
 
 	{
 		_id: "9",
 		title: "Card Flip - Movies",
-		creator: "588d27ad186c350012223b9d",
+		creator: "roger",
 		user: "rogergcc",
 		url: "https://codepen.io/rogergcc/full/rrrNdy",
 		type: "Front-End",
@@ -265,7 +283,7 @@ const projects = [
 	{
 		_id: "10",
 		title: "Free Code Camp | Pokemon Gens",
-		creator: "588d27ad186c350012223b9d",
+		creator: "roger",
 		user: "rogergcc",
 		url: "https://codepen.io/rogergcc/full/NeEYeN",
 		type: "Front-End",
@@ -278,35 +296,21 @@ const projects = [
 			"Bulma CSS Framework"
 		]
 	},
-	// {
-	// 	_id: "11",
-	// 	title: "Marvel APi",
-	// 	creator: "588d27ad186c350012223b9d",
-	// 	user: "rogergcc",
-	// 	url: "https://rogergcc.github.io/ApiMarvel/",
-	// 	type: "Front-End",
-	// 	img: "./assets/f_marvel.JPG",
-	// 	technologies: [
-	// 		"HTML",
-	// 		"CSS",
-	// 		"SCSS",
-	// 		"JS",
-	// 	]
-	// },
-	// {a
-	// _id: "588d6626d5fa05f06d1ad0df",
-	// title: "Free Code Camp | Tic Tac Toe",
-	// creator: "588d27ad186c350012223b9d",
-	// user: "jeremylshepherd",
-	// url: "http://s.codepen.io/jeremylshepherd/debug/rOoORj",
-	// type: "Front-End",
-	// img "https://jeremylshepherd.io./assets/tictactoe_new.JPG",
-	// technologies: [
-	// "Angular",
-	// "Bootstrap",
-	// "jQuery"
-	// ]
-	// }
+	{
+		_id: "11",
+		title: "Marvel APi",
+		creator: "roger",
+		user: "rogergcc",
+		url: "https://rogergcc.github.io/ApiMarvel/",
+		type: "Front-End",
+		img: "./assets/f_marvel.JPG",
+		technologies: [
+			"HTML",
+			"CSS",
+			"SCSS",
+			"JS",
+		]
+	},
 
 
 ];
