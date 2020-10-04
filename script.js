@@ -77,7 +77,7 @@ const projects = [
 		user: "rogergcc",
 		url: "https://ip-address-tracker-project.herokuapp.com/",
 		type: "Front-End",
-		img: "./assets/ip_adrress_tracker.jpg",
+		img: "./assets/ip_adrress_tracker.webp",
 		technologies: [
 			"Nodejs",
 			"Api",
@@ -95,7 +95,7 @@ const projects = [
 		user: "rogergcc",
 		url: "https://rogergcc.github.io/specials_menu/",
 		type: "Front-End",
-		img: "./assets/daily_menu_restaurant.PNG",
+		img: "./assets/daily_menu_restaurant.webp",
 		technologies: [
 			"Google Sheets",
 			"AppScript",
@@ -112,7 +112,7 @@ const projects = [
 		user: "rogergcc",
 		url: "https://appgallery5.huawei.com/#/app/C102550113",
 		type: "Mobile App",
-		img: "./assets/descarga_addfondo_2.png",
+		img: "./assets/descarga_addfondo_2.webp",
 		description: "Memory Android Game App - Movies",
 		technologies: [
 			
@@ -129,7 +129,7 @@ const projects = [
 		user: "rogergcc",
 		url: "https://github.com/rogergcc/AppLegal",
 		type: "Mobile App",
-		img: "./assets/m_tramiteLegal.JPG",
+		img: "./assets/m_tramiteLegal.webp",
 		description: "Android Mobile Application and multiplatform App in Xamarin Forms “Legal App” to track Administrative documents . Manage contracts quickly and easily.",
 		technologies: [
 			"C# and Java",
@@ -149,7 +149,7 @@ const projects = [
 		user: "rogergcc",
 		url: "https://github.com/rogergcc/AppSisfaedcoh",
 		type: "Mobile App",
-		img: "./assets/m_qrInventoryFaedcoh.JPG",
+		img: "./assets/m_qrInventoryFaedcoh.webp",
 		description: "Mobile App “Faedoch Qr” inventory and control of equipment in the faculty, recognition of items display of information according to their QR code.",
 		technologies: [
 			"Java",
@@ -168,7 +168,7 @@ const projects = [
 		user: "rogergcc",
 		url: "https://github.com/rogergcc/AppAtencionPedidos",
 		type: "Front-End",
-		img: "./assets/m_cortesias.JPG",
+		img: "./assets/m_cortesias.webp",
 		description: "Mobile App to carry out a control and monitoring of the courtesies that are attended in the room",
 		technologies: [
 
@@ -186,7 +186,7 @@ const projects = [
 		user: "rogergcc",
 		url: "#",
 		type: "Mobile App",
-		img: "./assets/m_ludopatas.JPG",
+		img: "./assets/m_ludopatas.webp",
 		description: "Mobile App “Ludopatas” related to the Money Laundering Module, in order to streamline the search process each client, for each gaming room of the PJ corporation, identifying, if it is an unpleasant person, a political person and a gambler",
 		technologies: [
 			"Java",
@@ -203,7 +203,7 @@ const projects = [
 	// 	user: "rogergcc",
 	// 	url: "https://www.dropbox.com/sh/n7ii601mg4c9pv3/AAD4ayTtPak8m6DT9C-AoxZQa?dl=0",
 	// 	type: "Mobile App",
-	// 	img: "./assets/m_flutter_gootwork.JPG",
+	// 	img: "./assets/m_flutter_gootwork.webp",
 	// 	description: "Design Mobile App for place basic orders for people near you and helping them donating supplies",
 	// 	technologies: [
 	// 		"Dart",
@@ -220,7 +220,7 @@ const projects = [
 	// 	user: "rogergcc",
 	// 	url: "https://github.com/rogergcc/SharedPreferenceFavorites",
 	// 	type: "Mobile App",
-	// 	img: "./assets/m_persitenceData.JPG",
+	// 	img: "./assets/m_persitenceData.webp",
 	// 	description: "Save Data Offline - Persitence Data.",
 	// 	technologies: [
 	// 		"Java",
@@ -236,7 +236,7 @@ const projects = [
 		user: "rogergcc",
 		url: "https://github.com/rogergcc/BookUiProject",
 		type: "Mobile App",
-		img: "./assets/m_bookUiTransition.JPG",
+		img: "./assets/m_bookUiTransition.webp",
 		description: "Book  Ui Transition project api google books ",
 		technologies: [
 			"Java",
@@ -252,7 +252,7 @@ const projects = [
 		user: "rogergcc",
 		url: "https://rogergcc.github.io/music-adventure/",
 		type: "Front-End",
-		img: "./assets/f_songs_adventure.JPG",
+		img: "./assets/f_songs_adventure.webp",
 		description: "Music player with flexbox and deezer api (tracks).",
 		__v: 1,
 		technologies: [
@@ -270,7 +270,7 @@ const projects = [
 		user: "rogergcc",
 		url: "https://codepen.io/rogergcc/full/rrrNdy",
 		type: "Front-End",
-		img: "./assets/f_movies.JPG",
+		img: "./assets/f_movies.webp",
 		description: "Codepen Card Flip - Movies",
 		__v: 1,
 		technologies: [
@@ -287,7 +287,7 @@ const projects = [
 		user: "rogergcc",
 		url: "https://codepen.io/rogergcc/full/NeEYeN",
 		type: "Front-End",
-		img: "./assets/f_pokemons_gens.JPG",
+		img: "./assets/f_pokemons_gens.webp",
 		description: "Pokemon Generations.",
 		technologies: [
 			"HTML5",
@@ -303,7 +303,7 @@ const projects = [
 		user: "rogergcc",
 		url: "https://rogergcc.github.io/ApiMarvel/",
 		type: "Front-End",
-		img: "./assets/f_marvel.JPG",
+		img: "./assets/f_marvel.webp",
 		technologies: [
 			"HTML",
 			"CSS",
