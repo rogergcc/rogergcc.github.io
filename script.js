@@ -4,6 +4,7 @@
 const body = document.querySelector('body');
 
 const main = document.querySelector('main');
+const toggleTheme = document.querySelector('#toggle-theme');
 
 var social_a = document.querySelector('.icons-social');
 var projects_w = document.querySelector('.project-grid');
@@ -331,10 +332,20 @@ function mapSocialAccounts(social) {
 let root = document.documentElement;
 mapSocialAccounts(socialAccounts);
 
-body.addEventListener("click", () => {
+//Before
+// body.addEventListener("click", () => {
+
+// 	var currentClass = main.className;
+	
+// 	main.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
+
+// });
+
+//Now
+toggleTheme.addEventListener("click", () => {
 
 	var currentClass = main.className;
-
+	
 	main.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
 
 });

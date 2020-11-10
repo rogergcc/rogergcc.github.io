@@ -78,6 +78,16 @@ main.light-mode .icons-social a svg path{
 a{
 	text-decoration :none;
 }
+.theme-toggle{
+	display: flex;
+	justify-content: flex-start;
+}
+.theme-toggler{
+	
+	fill: currentColor;
+
+}
+
 .portafolio a{
 	cursor: pointer;
 	margin: 1em auto;
@@ -125,9 +135,18 @@ main {
 }
 
 main > .intro {
+	display: flex;
+	position: relative;
+	justify-content: center;
 	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.25em;
+	font-size: 3.20em;
 	font-weight: 600;
+}
+
+.theme-toggle{
+	left: 0;
+	align-self: center;
+	position: absolute;
 }
 
 main > .tagline {
