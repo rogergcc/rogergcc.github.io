@@ -242,7 +242,7 @@ function mapSocialAccounts(social) {
   const html = social
     .map((account) => {
       return `
-			<a target="_blank" href="${account.link}"><i class="${account.icon}"></i></a>
+			<a rel="noopener" target="_blank" href="${account.link}"><i class="${account.icon}"></i></a>
 		`;
     })
     .join("");
