@@ -95,6 +95,14 @@ a{
 	padding: 3px 1em;
 	/*font-weight: 700;*/
 }
+main.light-mode .project-tile a h5{
+	color: var(--colorPrincipal);
+}
+main.dark-mode .project-tile a h5{
+	color: var(--colorSecundario);
+	
+}
+
 main.light-mode .portafolio a{
 	border: 1px solid var(--colorPrincipal);
 	color: var(--colorPrincipal);
@@ -112,7 +120,7 @@ main.dark-mode .portafolio a:hover{
 	color: var(--colorPrincipal);
 }
 .icons-social i {
-	font-size: 2.5em;
+	font-size: 2em;
 }
 
 /* Custom Styles */
@@ -151,7 +159,7 @@ main > .intro {
 
 main > .tagline {
 	font-size: 1.5rem;
-	margin: 1rem 0;
+	margin: .5rem 0;
 	font-weight: 100;
 }
 
@@ -171,7 +179,7 @@ main > .tagline {
 }
 
 .portfolio{
-	padding-top: 60px;
+	padding-top: 40px;
 }
 
 .overlay p {
@@ -182,7 +190,7 @@ main > .tagline {
 
 .frame {
 	text-align: center;
-	background-color: rgba(255, 255, 255, 0.6);
+	
 	color: #444;
 	font-family: "Permanent Marker", cursive;
 	border: 1px solid #999;
