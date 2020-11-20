@@ -275,7 +275,7 @@ function mapProjectsWorks(projectsARR) {
     .map((projec) => {
       return `
 		   <div class="project-tile">
-			<a target="_blank" href="${projec.url}">
+			<a rel="noopener" target="_blank" href="${projec.url}">
 				<div class="frame">
 					<span class="overlay">
 						<p>${projec.title}: <br>${projec.technologies} <br>Project type: ${projec.type}</p>
