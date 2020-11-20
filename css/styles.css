@@ -1,6 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap');
-
 
 /* Typography */
 
@@ -146,7 +144,7 @@ main > .intro {
 	display: flex;
 	position: relative;
 	justify-content: center;
-	font-family: 'Reem Kufi', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-size: 3.20em;
 	font-weight: 600;
 }
