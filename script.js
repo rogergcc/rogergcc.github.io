@@ -5,7 +5,12 @@ const toggleTheme = document.querySelector("#toggle-theme");
 
 var social_a = document.querySelector(".icons-social");
 var projects_w = document.querySelector(".project-grid");
+const card = document.querySelector('.content');
 
+const URL_API = 'https://script.google.com/macros/s/AKfycbzxy3v7xV1vuOsvD_0i7yJn66-53cMG1WlzGxd6_Vbxltu5W3U/exec?action=getItems';
+
+const spinner = document.querySelector('#spinner');
+//https://script.google.com/macros/s/AKfycbzxy3v7xV1vuOsvD_0i7yJn66-53cMG1WlzGxd6_Vbxltu5W3U/exec?action=getItems
 const socialAccounts = [
   {
     name: "github",
@@ -269,6 +274,8 @@ toggleTheme.addEventListener("click", () => {
   main.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
 });
 
+
+
 function mapProjectsWorks(projectsARR) {
   projects_w.innerHTML = "";
   let html = projectsARR
@@ -292,4 +299,31 @@ function mapProjectsWorks(projectsARR) {
   projects_w.innerHTML += html;
 }
 
-mapProjectsWorks(projects);
+
+
+
+async function fetchProjects(urlEndpoint) {
+  let data;
+  try {
+    const response = await fetch(urlEndpoint);
+    data = await response.json();
+
+    //return (data);
+  } catch (error) {
+    console.log(error);
+  }
+  // return data;
+  return data.items || data.results;
+}
+
+document.addEventListener("DOMContentLoaded", async function (e) {
+
+  (async () => {
+    const myProjects = await fetchProjects(URL_API);
+
+    spinner.setAttribute("hidden", "");
+
+    mapProjectsWorks(myProjects);
+  })();
+});
+
