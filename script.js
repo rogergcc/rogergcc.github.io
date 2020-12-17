@@ -5,11 +5,12 @@ const toggleTheme = document.querySelector("#toggle-theme");
 
 var social_a = document.querySelector(".icons-social");
 var projects_w = document.querySelector(".project-grid");
-const card = document.querySelector('.content');
+const card = document.querySelector(".content");
 
-const URL_API = 'https://script.google.com/macros/s/AKfycbzxy3v7xV1vuOsvD_0i7yJn66-53cMG1WlzGxd6_Vbxltu5W3U/exec?action=getItems';
+const URL_API =
+  "https://script.google.com/macros/s/AKfycbzxy3v7xV1vuOsvD_0i7yJn66-53cMG1WlzGxd6_Vbxltu5W3U/exec?action=getItems";
 
-const spinner = document.querySelector('#spinner');
+const spinner = document.querySelector("#spinner");
 //https://script.google.com/macros/s/AKfycbzxy3v7xV1vuOsvD_0i7yJn66-53cMG1WlzGxd6_Vbxltu5W3U/exec?action=getItems
 const socialAccounts = [
   {
@@ -274,8 +275,6 @@ toggleTheme.addEventListener("click", () => {
   main.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
 });
 
-
-
 function mapProjectsWorks(projectsARR) {
   projects_w.innerHTML = "";
   let html = projectsARR
@@ -288,7 +287,7 @@ function mapProjectsWorks(projectsARR) {
 						<p>${projec.title}: <br>${projec.technologies} <br>Project type: ${projec.type}</p>
 					</span>
 					<img class="image" src="${projec.img}" alt="${projec.title}-screenshot">
-					<h5>${projec.title}</h5>
+					<span class="title">${projec.title}</span>
 				</div>
 			</a>
 		</div>
@@ -298,9 +297,6 @@ function mapProjectsWorks(projectsARR) {
 
   projects_w.innerHTML += html;
 }
-
-
-
 
 async function fetchProjects(urlEndpoint) {
   let data;
@@ -317,7 +313,6 @@ async function fetchProjects(urlEndpoint) {
 }
 
 document.addEventListener("DOMContentLoaded", async function (e) {
-
   (async () => {
     const myProjects = await fetchProjects(URL_API);
 
@@ -326,4 +321,3 @@ document.addEventListener("DOMContentLoaded", async function (e) {
     mapProjectsWorks(myProjects);
   })();
 });
-

@@ -12,10 +12,18 @@ html {
 }
 
 p,
-h5 {
+span.title {
   /* font-family: 'Roboto', sans-serif; */
   font-family: "Nunito", sans-serif;
   /* font-family: 'Reem Kufi', sans-serif; */
+  
+  display: block;
+  font-size: 0.83em;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 
 :root {
@@ -96,6 +104,8 @@ a {
   fill: currentColor;
 }
 
+
+
 .portafolio a {
   cursor: pointer;
   margin: 1em auto;
@@ -103,10 +113,10 @@ a {
   padding: 3px 1em;
   /*font-weight: 700;*/
 }
-main.light-mode .project-tile a h5 {
+main.light-mode .project-tile a span.title {
   color: var(--colorPrincipal);
 }
-main.dark-mode .project-tile a h5 {
+main.dark-mode .project-tile a span.title {
   color: var(--colorSecundario);
 }
 
@@ -186,7 +196,10 @@ main > .tagline {
 }
 
 .portfolio {
-  padding-top: 40px;
+  padding-top: 30px;
+}
+.project_title{
+  margin: 0;
 }
 
 .overlay p {
