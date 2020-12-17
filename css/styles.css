@@ -347,7 +347,8 @@ main > .tagline {
 }
 
 .project-page .screenshot img {
-  width: 100%;
+  width: 100%; /* or max-width: 100%; */
+  height: auto;
   -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
 }
