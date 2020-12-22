@@ -164,7 +164,7 @@ main > .intro {
   position: relative;
   justify-content: center;
   font-family: "Nunito", sans-serif;
-  font-size: 3.2em;
+  font-size: 1.5em;
   font-weight: 600;
 }
 
@@ -181,7 +181,7 @@ main > .tagline {
 }
 
 .icons-social i {
-  padding: 10px;
+  padding-left: 10px;
 }
 
 .devto {

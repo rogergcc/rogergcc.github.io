@@ -32,7 +32,7 @@ const socialAccounts = [
   },
 
   {
-    name: "www",
+    name: "linkedin",
     link: "https://www.linkedin.com/in/roger-colquehuanca-calcina/",
     icon: "fab fa-linkedin",
   },
@@ -50,13 +50,13 @@ const socialAccounts = [
   },
 
   {
-    name: "www",
+    name: "freecodecamp",
     link: "https://www.freecodecamp.org/rogergcc",
     icon: "fab fa-free-code-camp",
   },
 
   {
-    name: "www",
+    name: "hackerrank",
     link: "https://www.hackerrank.com/rogergcc",
     icon: "fab fa-hackerrank",
   },
