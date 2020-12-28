@@ -277,8 +277,19 @@ toggleTheme.addEventListener("click", () => {
 
 function mapProjectsWorks(projectsARR) {
   projects_w.innerHTML = "";
-  let html = projectsARR
+	let platform ='';
+	let html = projectsARR
+	//https://www.flaticon.com/svg/static/icons/svg/2222/2222841.svg
+	//https://www.flaticon.com/svg/static/icons/svg/888/888839.svg
+
     .map((projec) => {
+			
+			if (projec.type=="Mobile App") {
+				platform=`<img class="platform_project" src="https://www.flaticon.com/svg/static/icons/svg/888/888839.svg" alt="project_type">`
+			}else{
+				platform=`<img class="platform_project" src="https://www.flaticon.com/svg/static/icons/svg/2920/2920277.svg" alt="project_type">`
+			}
+
       return `
 		   <div class="project-tile">
 			<a rel="noopener" target="_blank" href="${projec.url}">
@@ -288,6 +299,7 @@ function mapProjectsWorks(projectsARR) {
 					</span>
 					<img class="image" src="${projec.img}" alt="${projec.title}-screenshot">
 					<span class="title">${projec.title}</span>
+					${platform}		
 				</div>
 			</a>
 		</div>
