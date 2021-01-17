@@ -1,0 +1,54 @@
+
+.mytooltip[data-tooltip] {
+  position: relative;
+}
+.mytooltip[data-tooltip]::before,
+.mytooltip[data-tooltip]::after {
+  position: absolute;
+  display: none;
+  opacity: 0.85;
+}
+.mytooltip[data-tooltip]::before {
+  /*
+   * using data-tooltip instead of title so we 
+   * don't have the real tooltip overlapping
+   */
+  content: attr(data-tooltip);
+  background: #000;
+	
+	color: var(--colorSecundario);
+  font-size: 13px;
+	padding: .5rem .9rem;
+	font-family: "Nunito", sans-serif;
+  border-radius: 5px;
+  /* we don't want the text to wrap */
+  white-space: nowrap;
+  text-decoration: none;
+}
+.mytooltip[data-tooltip]::after {
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  content: '';
+}
+
+.mytooltip[data-tooltip]:hover::before,
+.mytooltip[data-tooltip]:hover::after {
+  display: block;
+}
+
+
+
+/* bottom tooltip */
+.mytooltip[data-tooltip][data-placement="bottom"]::before {
+  top: 100%;
+  left: 0;
+  margin-top: 10px;
+}
+.mytooltip[data-tooltip][data-placement="bottom"]::after {
+  border-bottom-color: var(--gray-800);
+  border-top: none;
+  top: 100%;
+  left: 10px;
+  margin-top: 4px;
+}

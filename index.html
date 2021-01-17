@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
+	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<title>Roger Colquehuanca | Mobile Dev</title>
 
@@ -47,7 +47,11 @@
 	<link href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" rel="stylesheet">
 	
 	<link rel="stylesheet" href="css/reset.css">
+
 	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+	<!-- <link rel="stylesheet" href="css/tooltip.css"> -->
 
 	<!-- <link rel="stylesheet" href="css/themes/yellow-black.css"> -->
 </head>
@@ -55,10 +59,27 @@
 <body>
 	
 	  
-	<main class="dark-mode">
+	<main class="dark-mode" >
 	
+		<header id="top" class="text-center dark:bg-gray-900" role="banner">
+			<div class="flex flex-wrap justify-center max-w-md px-4 pt-8 pb-0 mx-auto text-lg font-bold text-gray-800 uppercase md:pt-12 md:px-8 lg:pt-12 sm:max-w-xl md:max-w-6xl md:text-xl font-header dark:text-white md:justify-end">
+				 <div class="flex flex-col items-center justify-center sm:flex-row">
+						<nav class="mb-1 sm:mb-0">
+							 <a href="#portfolio" class="customSecondaryTextTheme cursor-pointer hover:text-primary dark:hover:text-secondary">Work
+							 </a>
+							 <a href="#about" class="customSecondaryTextTheme mx-6 cursor-pointer md:mx-8 hover:text-primary dark:hover:text-secondary">About
+							 </a>
+							 <a href="#contact" class="customSecondaryTextTheme cursor-pointer hover:text-primary dark:hover:text-secondary">Contact
+							 </a>
+						</nav>
+						
+				 </div>
+			</div>
+	 </header>
+
+		
 		<div class="intro">
-			<span>Roger Colquehuanca</span>
+			<!-- <span>Roger Colquehuanca</span> -->
 			<span class="theme-toggle" id="toggle-theme">
 				<svg class="theme-toggler" width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
@@ -67,44 +88,55 @@
 				</svg>
 			</span>
 		</div>
-		<div class="tagline">Software Developer </div>
-		<div class="tagline">Java  | Javascript | NodeJs | Php | C# | ASP.Net</div>
-		<div class="icons-social">
-			<!-- <a target="_blank" rel="noopener" href="https://github.com/rogergcc"><i class="fab fa-github"></i></a>
-			<a target="_blank" rel="noopener" href="https://gitlab.com/rogergcc"><i class="fab fa-gitlab"></i></a>
-			<a target="_blank" rel="noopener" href="https://stackoverflow.com/story/rogergcc"><i class="fab fa-stack-overflow"></i></a>
-			<a target="_blank" rel="noopener" href="https://www.linkedin.com/in/roger-colquehuanca-calcina/"><i
-					class="fab fa-linkedin"></i></a>
-			<a target="_blank" rel="noopener" href="https://medium.com/@rogercolque"><i class="fab fa-medium"></i></a>
-			<a target="_blank" rel="noopener" href="https://codepen.io/rogergcc/"><i class="fab fa-codepen"></i></a>
-			<a target="_blank" rel="noopener" href="https://www.freecodecamp.org/rogergcc"><i class="fab fa-free-code-camp"></i></a>
 
-			<a target="_blank" rel="noopener" href="https://www.hackerrank.com/rogergcc"><i class="fab fa-hackerrank"></i></a>
-
-			<a class="devto" target="_blank" rel="noopener" href="https://dev.to/rogergcc">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1" width="544" height="546.667" viewBox="0 0 408 410">
-					<path
-						d="M10.5 2.5C5.6 4.2 2.4 7.8 1 12.9.3 15.6.1 77.2.2 207.1.5 396.6.5 397.5 2.5 401c1.2 1.9 3.6 4.3 5.5 5.5 3.5 2 4.2 2 196 2s192.5 0 196-2c1.9-1.2 4.3-3.6 5.5-5.5 2-3.5 2-4.2 2-196s0-192.5-2-196c-1.2-1.9-3.6-4.3-5.5-5.5-3.5-2-4.4-2-194.5-2.2-162.9-.2-191.6 0-195 1.2zm96.8 124c9 1.9 15.5 5.6 22.2 12.6 6.1 6.4 9.9 13.7 11.5 21.9 1.3 6.9 1.3 81.1 0 88.1-3.4 18.2-18.9 32.4-38.1 34.9-4 .5-17.4 1-29.6 1H51V125h24.8c17.6 0 26.6.4 31.5 1.5zm130.7 13V154h-51v36h31v29h-31l.2 18.2.3 18.3 25.3.3 25.2.2v29h-29.5c-32.8 0-37.9-.6-43.1-5.2-7.3-6.4-6.9-2.3-7.2-72.6-.2-43.8.1-64.5.8-67.3 1.4-5.2 7.3-11.6 12.5-13.4 3.1-1.1 10.9-1.4 35.3-1.5H238v14.5zm48.9-12.3c.4 1.3 6.8 25.6 14.2 54 7.4 28.5 13.6 51.2 13.8 50.5.3-.7 6.6-24.8 14.1-53.7l13.7-52.5 15.6-.3c11.8-.2 15.7.1 15.7 1s-34.6 132.4-36.6 139c-1.4 4.6-8.9 14-13.1 16.5-5.3 3-13.1 3.5-17.9 1-4.3-2.2-10-8.8-12.9-15-1.8-3.8-31.2-112-38-140l-.7-2.7h15.6c15.3 0 15.7 0 16.5 2.2z" />
-					<path
-						d="M80 205v51.2l10.3-.4c8.9-.3 10.8-.7 14.8-3 7.8-4.6 7.9-4.9 7.9-48.4 0-42.4 0-42.4-7.3-47.2-3.6-2.4-5.1-2.7-14.9-3.1l-10.8-.3V205z" />
-					</svg>
-				<!-- <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Dinesh Pandiyan's DEV Profile" /> -->
-			</a>
-			<a target="_blank" rel="noopener" href="https://twitter.com/gccroger"><i class="fab fa-twitter"></i></a> -->
-
-		</div>
+		<!-- <div class="tagline">Software Developer </div>
+		<div class="tagline">Java  | Javascript | NodeJs | Php | C# | ASP.Net</div> -->
 		
+	
+		
+		<section class="flex flex-wrap max-w-md px-6 py-16 mx-auto sm:max-w-xl md:max-w-4xl lg:max-w-5xl md:py-24 lg:py-30">
+			<div class="flex items-center justify-center w-full md:w-1/3">
+
+		<img src="assets/develope.png" alt="developer">
+		
+			</div>										
+				<div id="about" class="text-secondary_light flex items-center mt-6 md:w-2/3 md:mt-0 md:pl-3 lg:pl-6">
+					<div class="flex flex-col items-center text-primary dark:text-secondary md:items-start">
+											 
+						<h1 class=" mb-3 text-xl text-center font-body md:text-2xl lg:text-2_5xl text-secondary_light">Hello ! I'm 
+							<span class="font-bold text-secondary_light">Roger Colquehuanca</span>
+						</h1>
+				<h2 class="customtheme mb-4 font-bold leading-tight text-center text-2_5xl md:text-left sm:text-3xl md:text-4xl lg:text-5xl">Android Developer &amp;<br> Front-end Developer JS
+				</h2>
+				<h3 class="customSecondaryTextTheme w-full mb-6 text-xl text-center text-gray-800 font-body md:text-1xl lg:text-2xl dark:text-gray-100 md:text-left md:max-w-md lg:max-w-xl">Passionate in Android Development, UI Java & Kotlin and JS Nodejs ✨. 
+					<!-- <span class="">Currently available for freelance opportunities.</span> -->
+				</h3>
+					<div class="flex flex-row items-center">
+						<a href="#contact" class="px-6 py-2 text-xl border-2 rounded-full text-primary border-primary text-center hover:bg-primary_light hover:border-primary_light hover:text-primary md:text-1xl dark:border-secondary_light dark:text-secondary_light dark:hover:bg-secondary dark:hover:border-secondary dark:hover:text-secondary_dark mb-4 mr-4">Contact
+						</a>
+						<!-- <a href="https://www.dropbox.com/s/78fl9l4mwwmaoeh/antonin-nhek-cv-int.pdf" class="px-6 py-2 text-xl border-2 rounded-full text-primary border-primary text-center hover:bg-primary_light hover:border-primary_light hover:text-primary md:text-1xl dark:border-secondary_light dark:text-secondary_light dark:hover:bg-secondary dark:hover:border-secondary dark:hover:text-secondary_dark mb-4">My résumé
+						</a> -->
+				</div>
+			</div>
+		</div>
+		</section>
+
+		<div class="py-10 border-t border-gray-800 dark:border-gray-800 dark:bg-gray-900">
 		<div id="portfolio" class="portfolio">
 			
-			<!-- <a style="display: none;" target="_blank" rel="noopener" href="https://codepen.io/rogergcc/full/dZqKEb/">Portafolio</a> -->
-			<h2 class="project_title">Projects</h2>
+			<!-- <a style="display: none;" target="_blank" rel="noopener" href="https://codepen.io/rogergcc/full/dZqKEb/">Portafolio
+			</a> -->
+			<h2 class="project_title">Work
+
+			</h2>
 			<div class="project-grid">
 
 				<!-- <div class="project-tile">
 					<a href="/5c8fd4a1e82a930016486064">
 						<div class="frame">
 							<span class="overlay">
-								<p>DevConf2020: <br>React-Native, Redux, Firebase <br>Project type: Full-Stack</p>
+								<p>DevConf2020: <br>React-Native, Redux, Firebase <br>Project type: Full-Stack
+								</p>
 							</span>
 							<img class="image" src="https://raw.githubusercontent.com/rogergcc/RetoRGCProjectmDevConf2020/master/screenshots/screenshot-1608394153891.jpg"
 								alt="DevConf2020-screenshot">
@@ -117,11 +149,90 @@
 			</div>
 
 		</div>
+	</div>
 		<div id="spinner" class="show"></div>	
 	</main>
 
+	
+	<footer id="contact" role="contentinfo" class="customSecondaryTextTheme px-4 py-20 text-center border-t border-gray-300 dark:border-gray-800 ">
+		<h3 class="font-bold uppercase text-1xl dark:text-white">Contact me!
+		</h3>
+		<div class="flex justify-center py-5 mb-4">
+			 <div class="text-4xl w-44 md:w-48 lg:w-64 md:text-4xl lg:text-5xl">
+					<ul class="flex items-center justify-between">
+						 <li class="flex">
+								<span data-tip="LinkedIn" data-offset="{'top': -10}" data-class="tooly" currentitem="false">
+									 <a target="_blank" rel="noopener" class="light dark cursor-pointer" href="https://www.linkedin.com/in/roger-colquehuanca-calcina/">
+											<span class="sr-only">LinkedIn
+											</span>
+											<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+												 <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+												 </path>
+											</svg>
+									 </a>
+								</span>
+						 </li>
+						 <li class="flex">
+								<span class="mytooltip" data-tooltip="Github" data-placement="bottom">
+									 <a  target="_blank" rel="noopener" class=" light dark cursor-pointer" href="http://github.com/rogergcc">
+											<span class="sr-only">Github
+											</span>
+											<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 480 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+												 <path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z">
+												 </path>
+											</svg>
+									 </a>
+								</span>
+						 </li>
+						 <li class="flex">
+								<span data-tip="Twitter" data-offset="{'top': -10}" data-class="tooly" currentitem="false">
+									 <a target="_blank" rel="noopener" class="light dark cursor-pointer" href="http://twitter.com/gccroger">
+											<span class="sr-only">Twitter
+											</span>
+											<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+												 <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+												 </path>
+											</svg>
+									 </a>
+								</span>
+						 </li>
+					</ul>
+				
+			 </div>
+		</div>
+		<div class="icons-social">
+		
+
+		</div> 
+		<p class="text-lg text-gray-800 dark:text-gray-200 py-5">
+		
+			 <!-- Build with 
+			 <svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" class="inline align-baseline" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+					<path d="M12 10.375c0-2.416-1.959-4.375-4.375-4.375s-4.375 1.959-4.375 4.375c0 1.127.159 2.784 1.75 4.375l7 5.25s5.409-3.659 7-5.25 1.75-3.248 1.75-4.375c0-2.416-1.959-4.375-4.375-4.375s-4.375 1.959-4.375 4.375">
+					</path>
+			 </svg> -->
+				Roger Colquehuanca © 2021 
+			 <br>Powered by 
+		
+			 <a class="light dark" href="https://tailwindcss.com">Tailwind CSS
+			 </a> 
+			 <!-- <br>Hosted by 
+			 <a class="light dark" href="https://www.netlify.com">Netlify -->
+			 </a> 
+
+		</p>
+		
+		<div class="flex justify-center mt-4">
+			 <a href="#top" class="px-6 py-2 text-xl border-2 rounded-full text-primary border-primary text-center hover:bg-primary_light hover:border-primary_light hover:text-primary md:text-1xl dark:border-secondary_light dark:text-secondary_light dark:hover:bg-secondary dark:hover:border-secondary dark:hover:text-secondary_dark text-lg">Back to top
+			 </a>
+		</div>
+ </footer>
+
+	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116205509-1"></script>
+	
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116205509-1">
+	</script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag() { dataLayer.push(arguments); }

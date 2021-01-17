@@ -1,14 +1,37 @@
 
 :root {
+	 /* --colorPrincipal: #F44336;
+	--colorSecundario: #1E1E1E; */
+
+  /* Black (#2D2926FF) and Cherry Tomato (#E94B3CFF) */
+  --colorPrincipal: #1a202c;
+  --colorSecundario: #f2f2f2;
+
+  /* Black & red Sonata */
+  /* --colorPrincipal: #ec4d37;
+	--colorSecundario: #1d1b1b; */
+
   --maincolor: #252525;
   --secondcolor: #ffcf40;
-  --scrollbar: #999999;
+	--scrollbar: #999999;
+
+	--gray-800: #2d3748;
+	--primary-medium: #5285ff;
+
+	--colorTheme: #ffcf40;
+	
+	--backgroundColor: #1a202c;
+
+	--colorSecondaryTextTheme: #f7fafc;
+
+	--secondary_light: #ffe38e;
 }
 
 
 html {
   /* font-family: 'Roboto', sans-serif; */
-  font-family: "Nunito", sans-serif;
+	font-family: "Nunito", sans-serif;
+	/* scroll-behavior: smooth; */
 }
 
 p,
@@ -26,18 +49,28 @@ span.title {
   font-weight: bold;
 }
 
-:root {
-  /* --colorPrincipal: #F44336;
-	--colorSecundario: #1E1E1E; */
-
-  /* Black (#2D2926FF) and Cherry Tomato (#E94B3CFF) */
-  --colorPrincipal: #252525;
-  --colorSecundario: #f2f2f2;
-
-  /* Black & red Sonata */
-  /* --colorPrincipal: #ec4d37;
-	--colorSecundario: #1d1b1b; */
+main.dark-mode .customtheme{
+	color: var(--colorTheme);
+	background: var(--colorPrincipal);
 }
+
+.colorTheme{
+
+	background: var(--colorTheme);
+}
+
+main.dark-mode .text-secondary_light{
+	color: var(--secondary_light);
+
+}
+main.dark-mode .customSecondaryTextTheme{
+	color: var(--colorSecondaryTextTheme);
+}
+
+/* main.light-mode .customtheme{
+ 
+  color: var(--colorTheme);
+} */
 
 #spinner:not([hidden]) {
   
@@ -73,7 +106,8 @@ span.title {
 
 main.dark-mode {
   background: var(--colorPrincipal);
-  color: var(--colorSecundario);
+	color: var(--colorSecundario);
+	padding: 0;
 }
 main.dark-mode .icons-social a {
   color: var(--colorSecundario);
@@ -84,7 +118,8 @@ main.dark-mode .icons-social a svg path {
 }
 main.light-mode {
   background: var(--colorSecundario);
-  color: var(--colorPrincipal);
+	color: var(--colorPrincipal);
+	padding: 0;
 }
 main.light-mode .icons-social a {
   color: var(--colorPrincipal);
@@ -214,8 +249,8 @@ main > .tagline {
   color: #444;
   font-family: "Permanent Marker", cursive;
   border: 1px solid #999;
-  -webkit-box-shadow: 2px 2px 2px var(--colorPrincipal);
-  box-shadow: 2px 2px 2px var(--colorPrincipal);
+  /* -webkit-box-shadow: 2px 2px 2px var(--colorPrincipal);
+  box-shadow: 2px 2px 2px var(--colorPrincipal); */
   margin-top: 25px;
   padding: 10px;
   position: relative;
