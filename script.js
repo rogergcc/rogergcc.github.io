@@ -373,14 +373,11 @@ document.addEventListener("DOMContentLoaded", async function (e) {
 		mapProjectsWorks(myProjects);
 	})();
 
-	const links = document.querySelectorAll("main a");
+	const links = document.querySelectorAll("main a.menu-item");
  
 	for (const link of links) {
 		link.addEventListener("click", clickHandler);
 	}
-	
-	
-	var currentClass = main.className;
 
 
 	main.className = localStorage.theme
