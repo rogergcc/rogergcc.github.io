@@ -70,6 +70,11 @@ main.dark-mode .text-secondary_light{
 main.dark-mode .customSecondaryTextTheme{
 	color: var(--colorSecondaryTextTheme);
 }
+main.dark-mode #top > div > div > nav > a.customSecondaryTextTheme:hover{
+	color: var(--colorTheme);
+}
+
+/* #about > div > div > a{} */
 
 /* main.light-mode .customtheme{
  

@@ -324,7 +324,7 @@ function mapProjectsWorks(projectsARR) {
 			<a rel="noopener" target="_blank" href="${projec.url}">
 				<div class="frame">
 					<span class="overlay">
-						<p>${projec.title}: <br>${projec.technologies} <br>Project type: ${projec.type}</p>
+						<p>${projec.description}: <br>${projec.technologies} <br>Project type: ${projec.type}</p>
 					</span>
 					<img class="image" src="${projec.img}" alt="${projec.title}-screenshot">
 					<span class="title">${projec.title}</span>
