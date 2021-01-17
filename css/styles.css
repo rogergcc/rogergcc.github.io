@@ -46,9 +46,13 @@ span.title {
   margin-block-end: 1.67em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  font-weight: bold;
+	font-weight: bold;
+	
 }
 
+span.title{
+	text-align: left;
+}
 main.dark-mode .customtheme{
 	color: var(--colorTheme);
 	background: var(--colorPrincipal);
@@ -203,11 +207,11 @@ main > .intro {
   font-weight: 600;
 }
 
-.theme-toggle {
+/* .theme-toggle {
   left: 0;
   align-self: center;
   position: absolute;
-}
+} */
 
 main > .tagline {
   font-size: 1.5rem;

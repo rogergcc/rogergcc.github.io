@@ -327,7 +327,7 @@ function mapProjectsWorks(projectsARR) {
 						<p>${projec.title}: <br>${projec.technologies} <br>Project type: ${projec.type}</p>
 					</span>
 					<img class="image" src="${projec.img}" alt="${projec.title}-screenshot">
-					<span class="title mb-2 text-2xl font-bold md:text-2_5xl font-header">${projec.title}</span>
+					<span class="title">${projec.title}</span>
 					${platform}		
 				</div>
 			</a>
@@ -373,14 +373,14 @@ document.addEventListener("DOMContentLoaded", async function (e) {
 		mapProjectsWorks(myProjects);
 	})();
 
-	const links = document.querySelectorAll("main a.menu-item");
+	const links = document.querySelectorAll("a.menu-item-scroll");
  
 	for (const link of links) {
 		link.addEventListener("click", clickHandler);
 	}
 
-
-	main.className = localStorage.theme
+	
+	main.className = localStorage.theme? localStorage.theme:"dark-mode";
 		
 	// https://anhek.dev/en/
 });
