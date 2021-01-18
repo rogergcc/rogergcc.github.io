@@ -148,7 +148,11 @@ a {
   fill: currentColor;
 }
 
-
+.myButtonSelector:hover{
+	background-color: var(--colorTheme);
+	border-color: var(--colorPrincipal);
+	color: var(--backgroundColor);
+}
 
 .portafolio a {
   cursor: pointer;

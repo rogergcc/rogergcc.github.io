@@ -300,9 +300,14 @@ toggleTheme.addEventListener("click", () => {
 
 
 	rootStyle.style.setProperty("--colorTheme", colochangeTheme);
+
+	const colorChangeButton= currentClass == "dark-mode" ? "#ffcf40" : "#252525";
+
+	rootStyle.style.setProperty("--backgroundColor", colorChangeButton);
 	
 	
 	localStorage.theme = main.className;
+
 });
 
 function mapProjectsWorks(projectsARR) {
