@@ -9,8 +9,9 @@ const projects_w = document.querySelector(".project-grid");
 const card = document.querySelector(".content");
 
 const projectsNewDesign = document.querySelector(".project-flex");
-const projectsNewDesignItemTechnologies = document.querySelector(".project-flex-item-technologies");
-
+const projectsNewDesignItemTechnologies = document.querySelector(
+	".project-flex-item-technologies"
+);
 
 const URL_API =
 	"https://script.google.com/macros/s/AKfycbzxy3v7xV1vuOsvD_0i7yJn66-53cMG1WlzGxd6_Vbxltu5W3U/exec?action=getItems";
@@ -25,7 +26,7 @@ const socialAccounts = [
 		name: "github",
 		link: "https://github.com/rogergcc",
 		icon: "fab fa-github",
-		active:false
+		active: false,
 	},
 
 	// {
@@ -34,55 +35,53 @@ const socialAccounts = [
 	// 	icon: "fab fa-gitlab"
 	//},
 
-
-
 	{
 		name: "stackoverflow",
 		link: "https://stackoverflow.com/story/rogergcc",
 		icon: "fab fa-stack-overflow",
-		active:true
+		active: true,
 	},
 
 	{
 		name: "linkedin",
 		link: "https://www.linkedin.com/in/roger-colquehuanca-calcina/",
 		icon: "fab fa-linkedin",
-		active:false
+		active: false,
 	},
 
 	{
 		name: "medium",
 		link: "https://medium.com/@rogercolque",
 		icon: "fab fa-medium",
-		active:true
+		active: true,
 	},
 
 	{
 		name: "codepen",
 		link: "https://codepen.io/rogergcc/",
 		icon: "fab fa-codepen",
-		active:false
+		active: false,
 	},
 
 	{
 		name: "freecodecamp",
 		link: "https://www.freecodecamp.org/rogergcc",
 		icon: "fab fa-free-code-camp",
-		active:true
+		active: true,
 	},
 
 	{
 		name: "hackerrank",
 		link: "https://www.hackerrank.com/rogergcc",
 		icon: "fab fa-hackerrank",
-		active:true
+		active: true,
 	},
 
 	{
 		name: "twitter",
 		link: "https://twitter.com/gccroger",
 		icon: "fab fa-twitter",
-		active:false
+		active: false,
 	},
 ];
 
@@ -266,7 +265,7 @@ function mapSocialAccounts(social) {
 	const html = social
 		.map((account) => {
 			return `
-			<a rel="noopener" target="_blank" href="${account.link}"><i class="${account.icon}"></i></a>
+			<a rel="noopener" target="_blank" href="${account.link}"><i class="${account.icon} light dark cursor-pointer"></i></a>
 		`;
 		})
 		.join("");
@@ -275,7 +274,7 @@ function mapSocialAccounts(social) {
 }
 
 let root = document.documentElement;
-const socialFilter = socialAccounts.filter(account=>account.active==true)
+const socialFilter = socialAccounts.filter((account) => account.active == true);
 mapSocialAccounts(socialFilter);
 
 //Before
@@ -294,31 +293,25 @@ toggleTheme.addEventListener("click", () => {
 	var rs = getComputedStyle(rootStyle);
 	// Alert the value of the --blue variable
 	//  alert("The value of --blue is: " + rs.getPropertyValue('--blue'));
-	const colorLight ="#c7ff84";
-	const colorDark ="#ec4d37";
+	const colorLight = "#c7ff84";
+	const colorDark = "#ec4d37";
 
-	
 	main.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
 
-
-	let colochangeTheme= currentClass == "dark-mode" ? "#252525" : "#ffcf40";
-
+	let colochangeTheme = currentClass == "dark-mode" ? "#252525" : "#ffcf40";
 
 	rootStyle.style.setProperty("--colorTheme", colochangeTheme);
 
-	const colorChangeButton= currentClass == "dark-mode" ? "#ffcf40" : "#252525";
+	const colorChangeButton = currentClass == "dark-mode" ? "#ffcf40" : "#252525";
 
 	rootStyle.style.setProperty("--backgroundColor", colorChangeButton);
-	
-	
-	localStorage.theme = main.className;
 
+	localStorage.theme = main.className;
 });
 
 function mapProjectsWorks(projectsARR) {
 	projects_w.innerHTML = "";
-	
-	
+
 	let platform = "";
 	let html = projectsARR
 		//https://www.flaticon.com/svg/static/icons/svg/2222/2222841.svg
@@ -349,40 +342,34 @@ function mapProjectsWorks(projectsARR) {
 		.join("");
 
 	projects_w.innerHTML += html;
-	
 }
 
 const parseProjectTechnologies = (technologiesProject) => {
 	let platform = "";
-	const myTecnologies =technologiesProject+""
-	
-	const listTech = myTecnologies.split('-')
-	
+	const myTecnologies = technologiesProject + "";
+
+	const listTech = myTecnologies.split("-");
+
 	let html = "";
-	listTech
-		.forEach(tecnologie => {
-			html+= 
-			`<span class="px-2 py-1 mb-2 text-gray-700 bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400">${tecnologie} 
+	listTech.forEach((tecnologie) => {
+		html += `<span class="px-2 py-1 mb-2 text-gray-700 bg-gray-200 dark:bg-gray-800 rounded dark:text-gray-400">${tecnologie} 
 				</span>
 				<span class="mx-1">
 				</span>
 			`;
-		});
-		
+	});
+
 	return html;
 };
 
 function mapProjectsNewDesign(projectsARR) {
-	
-	
 	projectsNewDesign.innerHTML = "";
 	let platform = "";
 	let html = projectsARR
 		//https://www.flaticon.com/svg/static/icons/svg/2222/2222841.svg
 		//https://www.flaticon.com/svg/static/icons/svg/888/888839.svg
-		
+
 		.map((projec) => {
-			
 			return `
 				
 				<div class="w-full px-6 mb-12 mb:w-1/2 md:w-1/2 lg:w-1/3 md:px-3 lg:px-6 sm:mb-16 md:mb-24">
@@ -433,7 +420,6 @@ function mapProjectsNewDesign(projectsARR) {
 		})
 		.join("");
 
-
 	projectsNewDesign.innerHTML += html;
 }
 
@@ -458,7 +444,7 @@ function clickHandler(e) {
 
 	scroll({
 		top: offsetTop,
-		behavior: "smooth"
+		behavior: "smooth",
 	});
 }
 
@@ -474,13 +460,12 @@ document.addEventListener("DOMContentLoaded", async function (e) {
 	})();
 
 	const links = document.querySelectorAll("a.menu-item-scroll");
- 
+
 	for (const link of links) {
 		link.addEventListener("click", clickHandler);
 	}
 
-	
-	main.className = localStorage.theme? localStorage.theme:"dark-mode";
-		
+	main.className = localStorage.theme ? localStorage.theme : "dark-mode";
+
 	// https://anhek.dev/en/
 });

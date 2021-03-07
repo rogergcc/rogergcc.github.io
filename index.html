@@ -58,6 +58,7 @@
 	
 	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
+	<link rel="stylesheet" href="css/bases.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<!-- <link rel="stylesheet" href="fonts.css"> -->
 
@@ -69,21 +70,21 @@
 
 <body>
 	
-	  
-	<main class="dark-mode" >
+	<div class="mx-auto bg-white dark:bg-gray-900">
+	<main class="dark-mode" role="main" >
 	
 		<header id="top" class="text-center dark:bg-gray-900" role="banner">
 			<div class="flex flex-wrap justify-center max-w-md px-4 pt-8 pb-0 mx-auto text-lg font-bold text-gray-800 uppercase md:pt-12 md:px-8 lg:pt-12 sm:max-w-xl md:max-w-6xl md:text-xl font-header dark:text-white md:justify-end">
 				 <div class="flex flex-col items-center justify-center sm:flex-row">
 					 
 						<nav class="mb-1 sm:mb-0">
-							 <a href="#portfolio" class="menu-item-scroll customSecondaryTextTheme cursor-pointer ">Projects
+							 <a href="#portfolio" class="menu-item-scroll cursor-pointer hover:text-primary dark:hover:text-secondary">Projects
 							 </a>
-							 <a href="#about" class="menu-item-scroll customSecondaryTextTheme mx-6 cursor-pointer md:mx-8 hover:text-primary">About
+							 <a href="#about" class="menu-item-scroll mx-6 cursor-pointer md:mx-8 hover:text-primary dark:hover:text-secondary">About
 							 </a>
-							 <a href="#contact" class="menu-item-scroll customSecondaryTextTheme cursor-pointer hover:text-primary">Contact
+							 <a href="#contact" class="menu-item-scroll cursor-pointer hover:text-primary dark:hover:text-secondary">Contact
 							 </a>
-							 <a target="_blank" rel="noopener" href="https://blogdevtrip.hashnode.dev/" class="customSecondaryTextTheme mx-6 cursor-pointer md:mx-8 hover:text-primary">Blog
+							 <a target="_blank" rel="noopener" href="https://blogdevtrip.hashnode.dev/" class="mx-6 cursor-pointer md:mx-8 hover:text-primary dark:hover:text-secondary">Blog
 							</a>
 						</nav>
 						<div class="intro">
@@ -107,8 +108,8 @@
 		<div class="tagline">Java  | Javascript | NodeJs | Php | C# | ASP.Net</div> -->
 		
 	
-		
-		<section class="flex flex-wrap max-w-md px-6 py-16 mx-auto sm:max-w-xl md:max-w-4xl lg:max-w-5xl md:py-24 lg:py-30">
+		<div class="bg-white dark:bg-gray-900">
+		<section class="flex flex-wrap max-w-md px-6 py-16 mx-auto sm:max-w-xl md:max-w-4xl lg:max-w-5xl md:py-24 lg:py-40">
 			<div class="flex items-center justify-center w-full md:w-1/3">
 
 		<img src="assets/developer.png" alt="developer">
@@ -117,21 +118,18 @@
 				<div id="about" class="text-secondary_light flex items-center mt-6 md:w-2/3 md:mt-0 md:pl-3 lg:pl-6">
 					<div class="flex flex-col items-center text-primary dark:text-secondary md:items-start">
 											 
-						<h1 class=" mb-3 text-xl text-center font-body md:text-2xl lg:text-2_5xl text-secondary_light">Hello ! I'm 
+						<h1 class="mb-3 text-xl text-center text-gray-800 font-body md:text-2xl lg:text-2_5xl dark:text-secondary_light">Hello ! I'm 
 							<span class="font-bold text-secondary_light">Roger Colquehuanca</span>
 						</h1>
-				<h2 class="customtheme mb-4 font-bold leading-tight text-center text-2_5xl md:text-left sm:text-3xl md:text-4xl lg:text-5xl">Android &amp;<br> Web Developer JS
+				<!-- <h2 class="customtheme mb-4 font-bold leading-tight text-center text-2_5xl md:text-left sm:text-3xl md:text-4xl lg:text-5xl">Android &amp;<br> Web Developer JS -->
+				<h2 class="mb-4 font-bold leading-tight text-center text-2_5xl md:text-left sm:text-3xl md:text-4xl lg:text-5xl">Android &amp;<br> Web Developer JS
 				</h2>
-				<h3 class="customSecondaryTextTheme w-full mb-6 text-xl text-center text-gray-800 font-body md:text-1xl lg:text-2xl dark:text-gray-100 md:text-left md:max-w-md lg:max-w-xl">Passionate in Android Development, UI Java & Kotlin and JS Nodejs ✨. 
+				<!-- <h3 class="customSecondaryTextTheme w-full mb-6 text-xl text-center text-gray-800 font-body md:text-1xl lg:text-2xl dark:text-gray-100 md:text-left md:max-w-md lg:max-w-xl">Passionate in Android Development, UI Java & Kotlin and JS Nodejs ✨.  -->
+				<h3 class="w-full mb-6 text-xl text-center text-gray-800 font-body md:text-1xl lg:text-2xl dark:text-gray-100 md:text-left md:max-w-md lg:max-w-xl">Passionate in Android Development, UI Java & Kotlin and JS Nodejs ✨. 
 					<!-- <span class="">Currently available for freelance opportunities.</span> -->
 				</h3>
 					<div class="flex flex-row items-center">
-						<a href="#contact" class="myButtonSelector menu-item-scroll px-6 py-2 text-xl border-2 rounded-full text-primary 
-						border-primary text-center 
-						hover:bg-primary_light 
-						hover:border-primary_light 
-						hover:text-primary md:text-1xl dark:border-secondary_light dark:text-secondary_light 
-						dark:hover:bg-secondary dark:hover:border-secondary dark:hover:text-secondary_dark mb-4 mr-4">Contact
+						<a href="#contact" class="px-6 py-2 text-xl border-2 rounded-full text-primary border-primary text-center hover:bg-primary_light hover:border-primary_light hover:text-primary md:text-1xl dark:border-secondary_light dark:text-secondary_light dark:hover:bg-secondary dark:hover:border-secondary dark:hover:text-secondary_dark mb-4 mr-4">Contact
 						</a>
 						<!-- <a  href="#" class="px-6 py-2 text-xl border-2 rounded-full text-primary border-primary text-center hover:bg-primary_light hover:border-primary_light hover:text-primary md:text-1xl dark:border-secondary_light dark:text-secondary_light dark:hover:bg-secondary dark:hover:border-secondary dark:hover:text-secondary_dark mb-4">
 						My Resume
@@ -141,13 +139,13 @@
 		</div>
 		</section>
 
-	
+	</div>
 		
 
 		
 		<div class="bg-white border-t border-gray-300 dark:border-gray-800 dark:bg-gray-900">
 			<div id="spinner" class="show"></div>	
-			<section id="portfolio" class="px-3 pt-12 pb-0 mx-auto sm:px-6 sm:pt-16 md:max-w-4xl md:pt-20 lg:pt-32 lg:max-w-7xl">
+			<section id="portfolio" class="px-3 pt-12 pb-0 mx-auto sm:px-6 sm:pt-16 md:max-w-4xl md:pt-20 lg:pt-32 lg:max-w-6xl">
 				<div class="project-flex flex flex-wrap -mx-3 md:px-3 xl:px-0 md:-mx-0 lg:-mx-3 md:mb-10">
 						<div class="w-full px-6 mb-12 mb:w-1/2 md:w-1/2 lg:w-1/3 md:px-3 lg:px-6 sm:mb-16 md:mb-24">
 							<div class="text-gray-800 dark:text-white">
@@ -287,7 +285,8 @@
 	</main>
 
 
-	<footer id="contact" role="contentinfo" class="customSecondaryTextTheme px-4 py-20 text-center border-t border-gray-300 dark:border-gray-800 ">
+	<!-- <footer id="contact" role="contentinfo" class="customSecondaryTextTheme px-4 py-20 text-center border-t border-gray-300 dark:border-gray-800 "> -->
+	<footer id="contact" role="contentinfo" class="px-4 py-20 text-center bg-white border-t border-gray-400 dark:border-gray-800 dark:bg-gray-900">
 		<h3 class="font-bold uppercase text-1xl dark:text-white">Contact me!
 		</h3>
 		<div class="flex justify-center py-5 mb-4">
@@ -356,12 +355,13 @@
 		</p>
 		
 		<div class="flex justify-center mt-4">
-			 <a href="#top" class="myButtonSelector menu-item-scroll px-6 py-2 text-xl border-2 rounded-full text-primary border-primary text-center hover:bg-primary_light hover:border-primary_light hover:text-primary md:text-1xl dark:border-secondary_light dark:text-secondary_light dark:hover:bg-secondary dark:hover:border-secondary dark:hover:text-secondary_dark text-lg">Back to top
+			 <!-- <a href="#top" class="myButtonSelector menu-item-scroll px-6 py-2 text-xl border-2 rounded-full text-primary border-primary text-center hover:bg-primary_light hover:border-primary_light hover:text-primary md:text-1xl dark:border-secondary_light dark:text-secondary_light dark:hover:bg-secondary dark:hover:border-secondary dark:hover:text-secondary_dark text-lg">Back to top -->
+			 <a href="#top" class="px-6 py-2 text-xl border-2 rounded-full text-primary border-primary text-center hover:bg-primary_light hover:border-primary_light hover:text-primary md:text-1xl dark:border-secondary_light dark:text-secondary_light dark:hover:bg-secondary dark:hover:border-secondary dark:hover:text-secondary_dark text-lg">Back to top
 			 </a>
 		</div>
  </footer>
 
-	
+</div>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116205509-1">
