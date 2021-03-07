@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
 	font-family: Work Sans;
 	font-style: normal;
 	font-display: swap;
@@ -272,7 +272,7 @@
 			format("woff2"),
 		url(/static/overpass-latin-900italic-241722a5e5bdfff88b3fee1d537c7d1c.woff)
 			format("woff");
-}
+} */
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
