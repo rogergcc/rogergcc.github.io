@@ -877,8 +877,8 @@ img {
 :root {
 	--gray-800: #2d3748;
 	--primary-medium: #5285ff;
-	--secondary: #42b4ff;
-	--secondary_light: #ffc107;
+	--secondary: #22bffd;
+	--secondary_light: #ffcc40;
 
 	/* --secondary: var(--secondary);
 	
