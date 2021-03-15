@@ -2,6 +2,10 @@
 .mytooltip[data-tooltip] {
   position: relative;
 }
+
+.mytooltip[data-tooltip]:hover{
+	scale: .4;
+}
 .mytooltip[data-tooltip]::before,
 .mytooltip[data-tooltip]::after {
   position: absolute;

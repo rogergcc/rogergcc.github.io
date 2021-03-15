@@ -275,7 +275,7 @@ function mapSocialAccounts(social) {
 
 let root = document.documentElement;
 const socialFilter = socialAccounts.filter((account) => account.active == true);
-mapSocialAccounts(socialFilter);
+//mapSocialAccounts(socialFilter);
 
 //Before
 // body.addEventListener("click", () => {
@@ -372,7 +372,7 @@ function mapProjectsNewDesign(projectsARR) {
 		.map((projec) => {
 			return `
 				
-				<div class="w-full px-6 mb-12 mb:w-1/2 md:w-1/2 lg:w-1/3 md:px-3 lg:px-6 sm:mb-16 md:mb-24">
+				<div class="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24">
 					<div class="text-gray-800 dark:text-white">
 							<div class="mb-6">
 								<a href="${projec.url}" title="${projec.title}" target="_blank" rel="noopener">
