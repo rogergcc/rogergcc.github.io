@@ -60,7 +60,7 @@
 
 	<!-- <link rel="stylesheet" href="fonts.css"> -->
 
-	<!-- <link rel="stylesheet" href="css/tooltip.css"> -->
+	<link rel="stylesheet" href="css/tooltip.css">
 
 	<!-- <link rel="stylesheet" href="css/themes/yellow-black.css"> -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700&amp;amp;subset=cyrillic" rel="stylesheet">
@@ -290,58 +290,59 @@
 
 <div class="mb-24"><h3 class="mb-8 text-xl font-bold text-center uppercase md:text-2xl font-header text-primary dark:text-secondary">My actual stack</h3>
 	<div class="flex flex-wrap justify-center mx-auto lg:max-w-2xl">
-		<div class="flex p-4 md:p-8">
-			<span data-tip="android" data-offset="{'top': -10}" data-class="tooly" currentitem="false">
-		<img src="/static/android.svg" class="w-16 transition duration-500 ease-in-out transform md:w-20 hover:scale-110" alt="android">
+		<div class="flex p-4 md:p-8 ctooltip">
+			
+			<span data-placement="bottom" data-tooltip="android" data-offset="{'top': -10}" data-class="tooly" currentitem="false" class="mytooltip">
+				<img src="/static/android.svg" class="w-16 transition duration-500 ease-in-out transform md:w-20 hover:scale-110" alt="android">
 			</span>
 		</div>
 
 		<!-- <div class="flex p-4 md:p-8">
-					<span data-tip="firebase" data-offset="{'top': -10}" data-class="tooly" currentitem="false">
+					<span data-placement="bottom" data-tooltip="firebase" data-offset="{'top': -10}" data-class="tooly" currentitem="false" class="mytooltip">
 				<img src="/static/firebase.svg" class="w-16 transition duration-500 ease-in-out transform md:w-20 hover:scale-110" alt="firebase">
 			</span>
 		</div> -->
 		<div class="flex p-4 md:p-8">
-			<span data-tip="Git" data-offset="{'top': -10}" data-class="tooly" currentitem="false">
+			<span data-placement="bottom" data-tooltip="Git" data-offset="{'top': -10}" data-class="tooly" currentitem="false" class="mytooltip">
 				<img src="/static/git-icon.svg" class="w-16 transition duration-500 ease-in-out transform md:w-20 hover:scale-110" alt="Git">
 			</span>
 		</div>
 
 
 		<div class="flex p-4 md:p-8">
-					<span data-tip="kotlin" data-offset="{'top': -10}" data-class="tooly" currentitem="false">
+					<span data-placement="bottom" data-tooltip="kotlin" data-offset="{'top': -10}" data-class="tooly" currentitem="false" class="mytooltip">
 				<img src="/static/kotlin-1.svg" class="w-16 transition duration-500 ease-in-out transform md:w-20 hover:scale-110" alt="kotlin">
 			</span>
 		</div>
 
 		<div class="flex p-4 md:p-8">
-			<span data-tip="Java" data-offset="{'top': -10}" data-class="tooly" currentitem="false">
+			<span data-placement="bottom" data-tooltip="Java" data-offset="{'top': -10}" data-class="tooly" currentitem="false" class="mytooltip">
 			<img src="/static/java.svg" class="w-16 transition duration-500 ease-in-out transform md:w-20 hover:scale-110" alt="Java">
 			</span>
 		</div>
 		
 		<div class="flex p-4 md:p-8">
-			<span data-tip="HTML 5" data-offset="{'top': -10}" data-class="tooly" currentitem="false">
+			<span data-placement="bottom" data-tooltip="HTML 5" data-offset="{'top': -10}" data-class="tooly" currentitem="false" class="mytooltip">
 			<img src="/static/htm5-icon.svg" class="w-16 transition duration-500 ease-in-out transform md:w-20 hover:scale-110" alt="HTML 5">
 			</span>
 		</div>
 		<div class="flex p-4 md:p-8">
-					<span data-tip="CSS 3" data-offset="{'top': -10}" data-class="tooly" currentitem="false">
+					<span data-placement="bottom" data-tooltip="CSS 3" data-offset="{'top': -10}" data-class="tooly" currentitem="false" class="mytooltip">
 				<img src="/static/css3.svg" class="w-16 transition duration-500 ease-in-out transform md:w-20 hover:scale-110" alt="CSS 3">
 			</span>
 		</div>
 		<div class="flex p-4 md:p-8">
-					<span data-tip="JavaScript" data-offset="{'top': -10}" data-class="tooly" currentitem="false">
+					<span data-placement="bottom" data-tooltip="JavaScript" data-offset="{'top': -10}" data-class="tooly" currentitem="false" class="mytooltip">
 				<img src="/static/javascript-icon.svg" class="w-16 transition duration-500 ease-in-out transform md:w-20 hover:scale-110" alt="JavaScript">
 			</span>
 		</div>
 		<div class="flex p-4 md:p-8">
-			<span data-tip="NodeJs" data-offset="{'top': -10}" data-class="tooly" currentitem="false">
+			<span data-placement="bottom" data-tooltip="NodeJs" data-offset="{'top': -10}" data-class="tooly" currentitem="false" class="mytooltip">
 				<img src="/static/nodejs-icon.svg" class="w-16 transition duration-500 ease-in-out transform md:w-20 hover:scale-110" alt="NodeJs">
 			</span>
 		</div>	
 		<!-- <div class="flex p-4 md:p-8">
-			<span data-tip="bootstrap" data-offset="{'top': -10}" data-class="tooly" currentitem="false">
+			<span data-placement="bottom" data-tooltip="bootstrap" data-offset="{'top': -10}" data-class="tooly" currentitem="false" class="mytooltip">
 			<img src="/static/bootstrap.svg" class="w-16 transition duration-500 ease-in-out transform md:w-20 hover:scale-110" alt="bootstrap">
 			</span>
 		</div> -->
@@ -357,7 +358,7 @@
 			 <div class="text-4xl w-44 md:w-48 lg:w-64 md:text-4xl lg:text-5xl">
 					<ul class="flex items-center justify-between">
 						 <li class="flex">
-								<span data-tip="LinkedIn" data-offset="{'top': -10}" data-class="tooly" currentitem="false">
+								<span class="mytooltip" data-tooltip="LinkedIn" data-placement="bottom" data-offset="{'top': -10}" data-class="tooly" currentitem="false" >
 									 <a target="_blank" rel="noopener" class="light dark cursor-pointer" href="https://www.linkedin.com/in/roger-colquehuanca-calcina/">
 											<span class="sr-only">LinkedIn
 											</span>
@@ -381,7 +382,7 @@
 								</span>
 						 </li>
 						 <li class="flex">
-								<span data-tip="Twitter" data-offset="{'top': -10}" data-class="tooly" currentitem="false">
+								<span class="mytooltip" data-tooltip="Twitter" data-placement="bottom" data-offset="{'top': -10}" data-class="tooly" currentitem="false" >
 									 <a target="_blank" rel="noopener" class="light dark cursor-pointer" href="http://twitter.com/gccroger">
 											<span class="sr-only">Twitter
 											</span>
