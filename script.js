@@ -368,7 +368,7 @@ function mapProjectsNewDesign(projectsARR) {
 	let html = projectsARR
 		//https://www.flaticon.com/svg/static/icons/svg/2222/2222841.svg
 		//https://www.flaticon.com/svg/static/icons/svg/888/888839.svg
-
+		// console.table(projectsARR)
 		.map((projec) => {
 			return `
 				
@@ -451,7 +451,7 @@ function clickHandler(e) {
 document.addEventListener("DOMContentLoaded", async function (e) {
 	(async () => {
 		const myProjects = await fetchProjects(URL_API);
-
+		// console.table(myProjects)
 		spinner.setAttribute("hidden", "");
 
 		//mapProjectsWorks(myProjects);
